@@ -4,71 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Hobby </title>
+    <link href="styles.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="hob">
     <div>
-        <nav>
-        <a href="home.html"> <i class="fa fa-home"></i> Home </a>|
-        <a href="education.html"> &#9997;  My Education </a>  |   
-        <a href="volunteer.html"> &#127757; My Volunteer </a>|                                                                                                                                                                                   
-        <a href="skills.html"> &#10004; My Skills </a>
+        <nav class="navdiv">
+        <a class="homenav" href="home.html"> <i class="fa fa-home"></i> Home </a>
+        <a class="homenav" href="education.html"> &#9997;  My Education </a>    
+        <a class="homenav" href="volunteer.html"> &#127757; My Volunteer </a>                                                                                                                                                                                 
+        <a class="homenav" href="skills.html"> &#10004; My Skills </a>
       </nav>
       </div> <br> <br>
 
-      <div> 
-        <h1> &#9918; My Hobby </h1>
-        <video src="../files/soccer.mp4" controls autoplay muted loop></video>
+      <div class="hobbox"> 
+        <h1 class="myvol"> &#9918; My Hobby </h1>
+        <video class="volvid" src="../files/soccer.mp4" controls autoplay muted loop></video>
       </div>
-      <section>
-        <div>
-            <h2> Reading Fictions </h2>
-            <img src="../files/book.jpg" alt="Books" >
-            <p> My all time favorite books are:</p>
-            <ul>
-                <li> <img src="../files/mine_book.jpg" alt="Mine to win" > Hiwot Teffera's Book that Binds Aspects of Ethiopian Christianity Education and Philosophy</li>
-                <li> <img src= "../files/lasts.jpg" alt="Nothing Lasts Forever"> Sydney Sheldon's. Medical thriller tells the story of three female doctors trying to prove themselves in a profession dominated by men.</li>
-                <li> <img src="../files/pilgrim.jpg" alt="The way of the Pilgrim"> English title of a 19th-century Russian work, recounting the narrator's journey as a mendicant pilgrim while practicing the Jesus Prayer. </li>
+      <section class="hob">
+        <div class="fiction">
+            <h2 id="saint" class="read"> Reading Fictions </h2>
+            <img id="giorgis" class="bookimg" src="../files/book.jpg" alt="Books">
+            <p class="myall"> My all time favorite books are:</p>
+            <ul class="ul">
+                <li class="mine"> <img class="mineimg" src="../files/mine_book.jpg" alt="Mine to win" > Hiwot Teffera's Book that Binds Aspects of Ethiopian Christianity Education and Philosophy</li>
+                <li class="mine"> <img class="mineimg" src= "../files/lasts.jpg" alt="Nothing Lasts Forever"> Sydney Sheldon's. Medical thriller tells the story of three female doctors trying to prove themselves in a profession dominated by men.</li>
+                <li class="mine"> <img class="mineimg" src="../files/pilgrim.jpg" alt="The way of the Pilgrim"> English title of a 19th-century Russian work, recounting the narrator's journey as a mendicant pilgrim while practicing the Jesus Prayer. </li>
             </ul>
         </div>
-        <div>
-            <h2> Theatrical art and Drama </h2>
-            <img src="../files/Yodit.jpg" alt="Yodit Gudit">
-            <P> As someone who finds solace in engaging in deep introspection while facing a mirror, the stage becomes my realm where I can fearlessly express my innermost thoughts and ideas.</P>
-            <h4> Dramas I participated in:</h4>
+        <div class="thea">
+            <h2 class="theatre"> Theatrical art and Drama </h2>
+            <img class="theaimg" src="../files/Yodit.jpg" alt="Yodit Gudit">
+            <P class="theanote"> As someone who finds solace in engaging in deep introspection while facing a mirror, the stage becomes my realm where I can fearlessly express my innermost thoughts and ideas.</P>
+            <h4 class="drama"> Dramas I participated in:</h4>
             <dl>
                 <dt> <b>Yodit Gudit </b> </dt>
                 <dd> The story of Ethiopian monarch, who on her reign executed several civilians. </dd>
                 <dt> <b> Bela Lebelha </b></dt>
                 <dd> The story of two neighbors dueling on a shared land.</dd>
             </dl> 
-            <img src="../files/me_drama.jpg" alt="My acting">
+            <img class="actimg" src="../files/me_drama.jpg" alt="My acting">
         </div>
-        <div>
-            <h2> Riding a bike </h2>
-            <img src="../files/bike.jpg" alt="Bicycle" >
-            <p> Although I initially had a fear of riding a bicycle, it has now become a hobby that has allowed me to confront my fears and grow stronger.</p>
+        <div class="ride">
+            <h2 class="theatre"> Riding a bike </h2>
+            <img class="ridimg" src="../files/bike.jpg" alt="Bicycle" >
+            <p class="ridnote"> Although I initially had a fear of riding a bicycle, it has now become a hobby that has allowed me to confront my fears and grow stronger.</p>
         </div>
-        <div>
-            <h2> Participating in the Holy Liturgy </h2>
+        <div class="liturgy">
+            <h2 class="theatre"> &#9841; Participating in the Holy Liturgy </h2>
             <audio controls loop>
                 <source src="../files/orthodox.mp3" type="audio/ogg">
                 <source src="../files/orthodox.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
               </audio>
-            <div>
-              <img src="../files/wechurch.jpg" alt="A religious trip">
-             <img src="../files/liturgy.jpg" alt="Women in Prayer" >
+            <div class="litimgs">
+              <img class="usc" src="../files/wechurch.jpg" alt="A religious trip">
+             <img class="pray" src="../files/liturgy.jpg" alt="Women in Prayer" >
             </div>
-            <p> The liturgies attributed to St. John Chrysostom and St. Basil the Great are the eucharistic 
+            <p class="litnote"> The liturgies attributed to St. John Chrysostom and St. Basil the Great are the eucharistic 
                 liturgies most generally used in Orthodox worship.</p>
         </div>
       </section>
-      <div>
-        <form action="volunteer.html"> <button type="submit"> Previous Page</button> </form>
-        <form action="skills.html"> <button type="submit"> Next Page</button> </form>
+      <div class="button">
+        <form class="prev" action="volunteer.html"> <button id="preved" type="submit"> Previous Page</button> </form>
+        <form class="next" action="skills.html"> <button id="nexted" type="submit"> Next Page</button> </form>
       </div>
-      <footer id="copy"> © copyright  | Nov, 2023 | Protected By law </footer>
+      <footer id="foot" class="footer"> © Copyright  | Nov, 2023 | Protected By law </footer>
 
 </body>
 </html>

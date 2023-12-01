@@ -1,0 +1,757 @@
+.hom{
+    background-image: url(https://images.unsplash.com/photo-1557128928-66e3009291b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D);
+}
+.home{
+    width: 90vw;
+   margin: 2em;
+}
+.navdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.homenav{
+    background-color: white;
+    width: 30vw;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(243, 243, 250);
+    font-size: 0.8em;
+    padding: 0.4em;
+    box-shadow: 0 0 1em black;
+    border-radius: 10em;
+    margin: 0.5em;
+    margin-right: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+.homenav:hover{
+    background-color: rgb(237, 227, 227);
+    color: brown;
+}
+
+.portfolio{
+    color: rgb(17, 42, 17);
+    text-align: center;
+    font-size: 1em;
+    box-shadow: 0 0 12px rgb(77, 70, 60);
+    padding: 0.03em;
+    border-radius: 10em;
+    background-color: white;
+    background-image: url(../files/Church.jpg);
+}
+.field{
+    border: solid 0.4em;
+    width: 86vw;
+    background-color: rgb(255, 255, 255);
+}
+.ai{
+    margin: 0 25%;
+    width: 50vw;
+    border-radius: 7em;  
+}
+legend{
+    color: rgb(180,1,1);
+    font-size: larger;
+    font-weight: bold;
+}
+.note{
+    font-family: "serif";
+    font-weight: bold;
+}
+.address{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 0.6em rgb(237, 186, 194);
+    border-radius: 2em;
+    margin: 1.5em;
+    padding: 1em;
+    background-color: rgb(244, 244, 156); 
+}
+.bethel{
+    flex: 1;
+    margin-top: 1.2em;
+    font-weight: bold;
+}
+.add{
+    color:blue ;
+    border-radius: 3em;   
+    margin: 0.7em; 
+    padding: 0.4em;
+}
+.insta{
+    font-weight: bold;
+    font-size: large;
+}
+.essay{
+    border: 0.4em double black;
+    padding: 0.4em;
+    background-color: white;
+    opacity: 0.8;
+}
+img{
+    width: 250px;
+}
+.photohead{
+    padding: 0.3em;
+    background-image: url(../files/Church.jpg);
+     text-align: center;
+     color: rgb(5,90,33);
+     font-size: 2em;
+     box-shadow: 0 0 0.4em black;
+     margin: 0.3em;
+     border-radius: 2em;
+}
+.photohead:hover{
+    background-image: url(../files/bec79416b47de044cfb9e1607b8c92db.jpg);
+}
+.childpic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(211, 226, 226);
+    border-radius: 5em;
+}
+.less{
+    font-size: 1.6em;
+    margin-left: 2em;
+    width: 90vh;
+}
+.img{
+    margin: 1em;
+    border: solid brown 0.3em;
+    border-radius: 4em;  
+    width: 10em;
+}
+.img2{
+    margin: 1em;
+    border: solid brown 0.3em;
+    border-radius: 4em;  
+    width: 11.2em;
+}
+.adultpic{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       background-color: rgb(244, 244, 156); 
+       margin-top: 1em;
+       border-radius: 5em;
+}
+.great{
+    width: 90vw;
+    font-size: 1.5em;
+    margin-left: 2em;
+}
+.aimg{
+    margin: 1em;
+    border: solid rgb(165, 42, 118) 0.3em;
+    border-radius: 4em;
+}
+.three{
+    width: 13em;
+}
+.four{
+    width: 8em;
+}
+.one{
+    width: 9em;
+}
+.two{
+    width: 13.9em;
+}
+.next{
+    margin: 2em;
+    text-align: right;
+}
+.footer{
+    margin: 0.6em;
+    padding: 1em;
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+}
+/* Eduation page Style*/
+.askuala{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.ed{
+    background-image: url(https://images.unsplash.com/photo-1532456745301-b2c645d8b80d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdoaXRlJTIwZ2VvbWV0cmljfGVufDB8fDB8fHww);
+}
+.myed{
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+    box-shadow: 0 0 0.6em rgb(45, 44, 43);
+    padding: 0.8em;
+    border-radius: 10em;
+    width: 90vw;
+    background-image: url(../files/Church.jpg);
+}
+
+.victory{
+    background-color: white;
+    border: solid;
+    margin: 1em;
+    border-radius: 2em;
+    box-shadow: 0 0 0.3em rgb(70, 93, 18);
+    width: fit-content;
+}
+.el{
+    color: rgb(128, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+.elpic{
+    margin: 1em;
+    border-radius: 2em;
+    border: solid;
+}
+.abvic{
+    font-size: 1.2em;
+    margin: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.motohead{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-left: 0.6em;
+}
+.moto{
+    font-size: 1.3em;
+    color: rgb(111, 69, 111);
+}
+.mykg{
+    margin: 1em;
+    border-radius: 6em;
+    border: 2px solid rgb(115, 70, 78);
+}
+.high{
+    background-color: white;
+    width: fit-content;
+    border: solid;
+    margin: 0.4em;
+    border-radius: 2em;
+    box-shadow: 0 0 0.3em rgb(70, 93, 18);
+}
+.cathepic{
+    margin: 1em;
+    border-radius: 2em;
+    border: solid;
+    height: 30vh;
+}
+.catnote{
+    font-size: 1.2em;
+    margin: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.cathe{
+    font-size: 1.8em;
+    color: rgb(128, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+}
+.uscathe{
+    margin: 1em;
+    border-radius: 6em;
+    border: 2px solid rgb(115, 70, 78);
+}
+.uni{
+    background-color: white;
+    box-shadow: 0 0 0.5em rgb(70, 93, 18);
+    border: solid;
+    border-radius: 2em;
+    width: fit-content;
+}
+.unihead{
+    color: rgb(128, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+.aait{
+    margin: 1em;
+    border-radius: 2em;
+    border: solid;  
+}
+.aanote{
+    font-size: 1.2em;
+    margin: 1em;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.trans{
+    background-color: white;
+    margin: 1em;
+    border: solid;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 1.5em rgb(113, 92, 95);
+    padding: 1em;
+}
+.file{
+    width: fit-content;
+    color: rgb(60, 106, 106);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.transcript{
+    font-size: 1.3em;
+    border: solid black;
+    padding: 0.3em;
+    background-color: rgb(0, 0, 108);
+    border-radius: 1em;
+    color: rgb(255, 254, 254);
+}
+.transcript:hover{
+    background-color: lightgray;
+}
+
+.church{
+    display: flex;
+    flex-direction: column;
+    margin: 0.2em;
+    width: 100vw;
+}
+.mych{
+    box-shadow: 0 0 0.2em black;
+    color: rgb(239, 245, 239);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.2em;
+    padding: 0.2em;
+    border-radius: 1em;
+    background-image: url(../files/Church.jpg);
+}
+
+#giorgis{
+    border-radius: 10em;
+    width: 50vw;
+    margin: 0.5em;
+    border: 2px solid;
+}
+#saint{
+   text-align: center;
+   font-size: 2.1em;
+   color: rgb(8, 2, 2);
+}
+.mary{
+    background-color: white;
+    border: solid;
+    border-radius: 1em;
+   height: 100vh;
+    padding: 0.5em;
+    margin: 0.4em;
+    box-shadow: 0 0 0.3em;
+}
+.praise{
+    font-size: 2em;
+}
+.theology{
+    background-color: white;
+    border: solid;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 0.4em;
+    box-shadow: 0 0 0.3em ;
+}
+.regular{
+    font-size: 1.8em;
+    text-align: center;
+}
+.classes{
+    font-size: 1.5em;
+}
+ul{
+    font-size: 1.2em;
+}
+.lihead{
+    color: brown;
+}
+.thesis{
+    font-weight: bold;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    column-gap: 13em;
+    align-items: center;
+}
+
+
+ /* My volunteer page CSS*/
+
+.volbox{
+    background-color: white;
+    width: 90vw;
+    margin: 2em;
+    padding: 1.5em;
+    border-radius: 2em;
+    box-shadow: 0 0 1em;
+}
+.vol{
+    background-image: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D);
+}
+.myvol{
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    box-shadow: 0 0 0.3em rgb(126, 115, 101);
+    padding: 0.8em;
+    margin: 0.5em;
+    border-radius: 10em;
+    background-image: url(../files/Church.jpg);
+}
+.volvid{
+  width: 90vw;
+  border-radius: 3em;
+  border: double;
+  margin: 0.2em;
+}
+.volunteer{
+    display: flex;
+    flex-direction: column;
+   width: 110vw;
+}
+.ken{
+    width: 100vw;
+    box-shadow: 0 0 0.6em;
+    margin: 1em;
+    border-radius: 1.6em;
+    background-color: rgb(246, 248, 226);
+}
+.summer{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+.johnimg{
+    width:40vh;
+    height: 50vh;
+    margin: 1em;
+    border: brown solid;
+    border-radius: 2em;
+}
+.kennote{
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(15, 65, 15);
+}
+.libo{
+    box-shadow: 0 0 0.5em;
+    width: 100vw;
+    margin: 0.8em;
+    border-radius: 1.6em;
+    background-color: rgb(241, 217, 217);
+}
+.assist{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+.liboimg{
+    margin: 1em;
+    border: brown solid;
+    border-radius: 2em;
+}
+.libonote{
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(15, 65, 15);
+}
+.plantbox{
+    box-shadow: 0 0 0.5em;
+    margin: 1em;
+    border-radius: 1.6em;
+    background-color: rgb(245, 224, 224);
+}
+.plant{
+    width: 10em;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: underline;
+}
+.plantimg{
+    margin: 1em;
+    border: brown solid;
+    border-radius: 2em; 
+}
+.plantnote{
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(15, 65, 15);
+}
+.stembox{ 
+    background-color: rgb(246, 248, 226);
+    box-shadow: 0 0 0.5em;
+    margin: 1em;
+    border-radius: 1.6em;
+}
+.stem{
+    width: 10em;
+    font-size: 1.7em;
+    text-align: center;
+    text-decoration: underline;
+}
+.stemimg{
+    margin: 1em;
+    border: brown solid;
+    border-radius: 2em; 
+}
+.stemnote{
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(15, 65, 15);
+}
+/* Hobby page Style*/
+
+.hob{
+    background-image: url(https://images.unsplash.com/photo-1505085702750-96d89f461398?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHdoaXRlJTIwZ2VvbWV0cmljfGVufDB8fDB8fHww);
+}
+.hobbox{
+    box-shadow: 0 0 0.3em black;
+    padding: 0.4em;
+    width: 100vw;
+    border-radius: 2em;
+    margin-left: 2em;
+    background-color: rgb(248, 243, 244);
+}
+.fiction{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 3em;
+}
+.read{
+    margin-top: 1em;
+    text-decoration: underline;
+}
+.bookimg{
+    padding: 0.5em;
+    border-radius: 10em;
+}
+.myall{
+    font-size: 2em;
+    font-weight: bold;
+}
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+}
+.mine{
+    border-radius: 2em;
+    box-shadow: 0 0 0.5em black;
+    margin: 0.3em;
+    font-size: 1.2em;
+    padding: 0.3em;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+.mineimg{
+    border-radius: 2em;
+    padding: 1em;
+}
+.thea{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2em;
+    width: 130vw;
+    box-shadow: 0 0 0.8em black;
+    background-color: rgb(226, 239, 243);
+}
+.theatre{
+    text-decoration: underline;
+    padding: 0.5em;
+    color: brown;
+    font-size: 2em;
+}
+.theaimg{
+    border-radius: 4em;
+    padding: 1em;
+}
+.theanote{
+    align-items: start;
+    font-size: 1.6em;
+    padding: 0.3em;
+}
+.drama{
+    font-size: 1.9em;
+    color: rgb(7, 51, 7);
+    padding: 0.4em;
+}
+dt{
+    font-size: 1.8em;
+    padding: 0.5em;
+}
+dd{
+    font-size: 1.5em;
+}
+.actimg{
+    margin: 3em;
+    border: double 0.3em;
+    border-radius: 3em;
+}
+.ride{
+    box-shadow: 0 0 2em;
+    padding: 1em;
+    margin: 1.5em;
+    border-radius: 2em;
+    width: 110vw;
+    background-color: rgb(245, 238, 228);
+}
+.ridimg{
+    border: solid;
+}
+.ridnote{
+    font-size: 1.5em;
+}
+.liturgy{
+    box-shadow: 0 0 1em black;
+    border-radius: 2em;
+    margin: 1em;
+    padding: 0.3em;
+    width: 110vw;
+}
+audio{
+    border: solid rgb(52, 18, 18);
+    border-radius: 1.4em;
+    margin: 0.3em 25%;
+}
+.litimgs{
+    display: flex;
+}
+.usc{
+    border-radius: 3em;
+    height: 30vh;
+    margin: 0.4em;
+    border: solid;
+    width: 60vw;
+}
+.pray{
+    border-radius: 3em;
+    height: 40vh;
+}
+.litnote{
+    font-size: 1.7em;
+    background-color: white;
+}
+
+
+/* My skills Css*/
+
+tbody tr:nth-child(even) {
+    background-color: #f4e4e4;
+  }
+table {
+    border-collapse: collapse;
+    border: 2px inset black;
+    margin-right:auto;
+    box-shadow: -0.2em -0.2em rgb(139, 134, 134);
+    width: 110vw;
+}
+td {
+    padding: 0.2em;
+  }
+.tdh{
+    font-weight: bold;
+}
+th{
+    padding: 0.5em;
+  }
+td img{
+    width:90%
+}
+.other{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sofa{
+    width: 130vw;
+    box-shadow: 0 0 0.5em black;
+    margin: 0.5em;
+    border-radius: 2em;
+    background-color: rgb(243, 252, 242);
+}
+.myad{
+    font-size: 2em;
+    text-align: center;
+    color: rgb(129, 25, 25);
+    border-radius: 2em;
+    box-shadow: 0 0 0.3em black;
+    padding: 0.6em;
+    background-image: url(../files/Church.jpg);
+
+}
+.ankelba{
+    margin: 0.3em;
+    width: 90vw;
+    border: solid;
+    border-radius: 2em;
+}
+.notes{
+    font-size: 1.4em;
+    padding: 0.3em;
+}
+.bike{
+    width: 46vw;
+    box-shadow: 0 0 0.3em;
+    border-radius: 2em;
+    margin: 0.3em;
+    background-color: rgb(244, 253, 244);
+}
+.bikeimg{
+    width: 30vw;
+    border-radius: 2em;
+    padding: 0.5em;
+    margin: 0.6em;
+    border: inset;
+}
+.certi{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+.mycer{
+    width: 100vw;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(113, 30, 30);
+    box-shadow: 0 0 0.3em black;
+    padding: 0.5em;
+    border-radius: 2em;
+    background-image: url(../files/Church.jpg);
+}
+.hour{
+    background-color: white;
+    opacity: 0.9;
+    width: 41vw;
+    box-shadow: 0 0 0.3em black;
+    margin: 0.5em;
+}
+tbody tr:nth-child(odd) {
+    background-color: white;
+    opacity: 0.9;
+  }
+.hourimg{
+    border: solid;
+    width: 38vw;
+    padding:0.2em;
+}
+.skill{
+    background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D);
+}
+.myskil{
+    width: 90vw;
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0 0 0.3em rgb(126, 115, 101);
+    padding: 0.8em;
+    margin: 0.5em;
+    border-radius: 10em;
+    background-image: url(../files/Church.jpg);
+}
