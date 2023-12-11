@@ -1,6 +1,5 @@
 .about{
     margin: 0.3em;
-    box-shadow: 0 0 0.3em black;
 }
 .hom{
     background-image: url(https://images.unsplash.com/photo-1557128928-66e3009291b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D); 
@@ -20,7 +19,7 @@
     font-family: serif;
     font-size: 0.8em;
     padding: 0.4em;
-    box-shadow: 0 0 1em black;
+    box-shadow: 0 0 1.1em black;
     border-radius: 10em;
     margin: 0.5em;
     margin-right: 2em;
@@ -31,22 +30,22 @@
     background-color: rgb(237, 227, 227);
     color: brown;
 }
-
 .portfolio{
     color: rgb(17, 46, 17);
     text-align: center;
-    font-size: 1em;
+    width: 110vw;
+    font-size: 1.3em;
     box-shadow: 0 0 12px rgb(63, 58, 50);
-    padding: 0.03em;
     border-radius: 10em;
     background-image: url(../files/Church.jpg);
 }
 .field{
+    width: 110vw;
     border: solid 0.4em;
     background-color: azure;
+    margin-bottom: 0.5em;
 }
 .ai{
-    margin: 0 25%;
     width: 50vw;
     border-radius: 7em;  
 }
@@ -58,6 +57,7 @@ legend{
 .note{
     font-family: "serif";
     font-weight: bold;
+    font-size: 1.2em;
 }
 .address{
     display: grid;
@@ -66,6 +66,7 @@ legend{
     border-radius: 2em;
     margin: 1.5em;
     padding: 1em;
+    width: 80vw;
     background-color: rgb(244, 244, 156); 
 }
 .bethel{
@@ -92,7 +93,7 @@ legend{
      background-image: url(../files/Church.jpg);
      text-align: center;
      color: white;
-     font-size: 2em;
+     font-size: 1.6em;
      box-shadow: 0 0 0.4em black;
      margin: 0.3em;
      border-radius: 2em;
@@ -106,6 +107,7 @@ legend{
     grid-template-columns: auto auto;
     background-color: rgb(211, 226, 226);
     border-radius: 5em;
+    width: fit-content;
 }
 .less{
     font-size: 1.5em;
@@ -116,13 +118,13 @@ legend{
     margin: 1em;
     border: solid brown 0.3em;
     border-radius: 4em;  
-    width: 12em;
+    width: 10em;
 }
 .img2{
     margin: 1em;
     border: solid brown 0.3em;
     border-radius: 4em;  
-    width: 12em;
+    width: 10em;
 }
 .adultpic{
        display: grid;
@@ -130,12 +132,13 @@ legend{
        background-color: rgb(244, 244, 156); 
        margin-top: 1em;
        border-radius: 5em;
+       width: fit-content;
 }
-
 .great{
     font-size: 1.5em;
     margin-left: 2em;
     grid-column: 1/3;
+    text-align: center;
 }
 .four{
     grid-area: 2 /2 ;
@@ -145,11 +148,10 @@ legend{
     margin: 1em;
     border: solid rgb(165, 42, 118) 0.3em;
     border-radius: 4em;
-    width: 11em;
+    width: 12em;
 }
 .next{
-    background-color: white;
-    margin: 2em;
+    margin: 2em 0;
     text-align: right;
 }
 .footer{
@@ -160,7 +162,6 @@ legend{
     box-shadow: 0 0 1em ;
 }
 /* Eduation page Style*/
-
 .askuala{
     margin: 0;
     width: 90vw;
@@ -168,7 +169,7 @@ legend{
     grid-template-columns: 1fr 1fr;
 }
 .myed{
-    width: 100vw;
+    width: 110vw;
     background-image: url(../files/Church.jpg);
     color: white;
     text-align: center;
@@ -177,11 +178,11 @@ legend{
     box-shadow: 0 0 0.6em rgb(56, 51, 46);
     padding: 0.8em;
     border-radius: 10em;
-    grid-area: 1 / 1 / span 1/ span 2;
+    grid-column: 1/3;
 }
 .victory{
     background-color: white;
-    width: 90vw;
+    width: 100vw;
     border: solid;
     margin: 0.2em;
     border-radius: 2em;
@@ -222,13 +223,14 @@ legend{
 }
 .high{
     background-color: white;
-    width: 80vw;
+    width: 100vw;
     border: solid;
-    margin: 0.2em;
+    margin: 0.3em;
     border-radius: 2em;
     box-shadow: 0 0 0.3em rgb(70, 93, 18);
 }
 .cathepic{
+    width: 75vw;
     margin: 1em;
     border-radius: 2em;
     border: solid;
@@ -279,7 +281,7 @@ legend{
 .trans{
     background-color: white;
     border: solid;
-    width: 60vw;
+    width: 70vw;
     height: 60vh;
     margin: 2em;
     box-shadow: 0 0 1.5em rgb(113, 92, 95);
@@ -320,7 +322,7 @@ legend{
 }
 #giorgis{
     border-radius: 6em;
-    width: 60vw;
+    width: 40vw;
     margin: 0.5em;
     border: 2px solid;
 }
@@ -331,7 +333,7 @@ legend{
 }
 .mary{
     background-color: white;
-    width: 80vw;
+    width: 90vw;
     border: solid;
     border-radius: 1em;
     height: 100vh;
@@ -354,7 +356,7 @@ legend{
 }
 .theology{
     background-color: white;
-    width: 85vw;
+    width: 95vw;
     border: solid;
     border-radius: 1em;
     padding: 0.5em;
@@ -384,20 +386,19 @@ ul{
     align-items: center;
 }
 #nexted{
-    margin-left: 25em;
-    padding: 0.4em;
+    margin-left: 10em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: black;
 }
 #foot{
-    width: 150vw;
     font-size: 1.4em;
+    width: 180vw;
 }
+
 #ednav{
     background-color: white;
     font-size: 1.3em;
-}
-#nexted{
-    font-size: 1.5em;
-    color: black;
 }
 #preved{
     font-size: 1.5em;
@@ -408,6 +409,27 @@ ul{
 }
  /* My volunteer page CSS*/
 
+ @media screen and (min-width: 1024px){
+    div.volbox{
+        width: 60vw;
+    }
+    video.volvid{
+        width: 55vw;
+    }
+    div.ken, div.libo, div.plantbox, .divstem{
+        width: 45vw;
+    }
+    p.kennote , p.libonote, p.stemnote, p.plantnote{
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    img.johnimg, img.liboimg, img.plantimg, img.stemimg {
+        width: 30vw;
+    }
+    footer.footer.fv{
+        width: 90vw;
+    }
+ }
 .volbox{
     background-color: white;
     width: 110vw;
@@ -540,9 +562,10 @@ ul{
 .fv{
     width: 90vh;
 }
-
+button#nexted{
+    margin-left: 23em;
+}
 /* Hobby page Style*/
-
 .hobbox{
     box-shadow: 0 0 0.3em black;
     padding: 0.4em;
@@ -580,19 +603,22 @@ ul{
     margin: 0 ;
     padding: 0;
 }
-.mine{
-    width: 90vw;
+ul.ul{
+    width: 100vw;
+}
+li.mine{
+    width: 80vw;
     border-radius: 2em;
     box-shadow: 0 0 0.5em black;
     margin: 0.3em;
     margin: 0.5em;
     font-size: 1.2em;
     padding: 0.3em;
-    height: 90vh;
+    height: 70vh;
     background-color: antiquewhite;
 }
 .mineimg{
-    width: 60vw;
+    width: 40vw;
     border-radius: 2em;
     padding: 1.5em;
 }
@@ -688,7 +714,6 @@ audio{
 
 
 /* My skills Css*/
-
 .myskil{
     width: 170vw;
     color:white;
@@ -714,7 +739,7 @@ table {
     box-shadow: -0.2em -0.2em rgb(139, 134, 134);
     width: 200vw;
 }
-td {
+td{
     padding: 0.2em;
     font-size: 1.4em;
   }
@@ -731,6 +756,9 @@ td img{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+th.img{
+    border: solid beige;
+  }
 .sofa{
     width: 100vh;
     grid-column: 1/3;
@@ -809,3 +837,497 @@ td img{
 .skill{
     background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D);
 }
+@media screen and (min-width: 481px) and (max-width: 768px){
+    fieldset.field{
+        width: 80vw;
+        margin-left: 10%;
+    }
+    div.childpic, div.adultpic{
+        width: 85%;
+        margin-left: 8%;
+        margin-top: 2em;
+    }
+    img.img, img.img2 , img.aimg{
+        width: 35vw;
+    }
+    li.mine{
+        height: 120vh;
+        font-size: 1.9em;
+    }
+    a.homenav{
+        width: 30vw;
+        font-size: 1.3em;
+    }
+    nav.navdiv{
+        width: 100vw;
+    }
+    a#ednav.homenav{
+        font-size: 2em;
+    }
+    div.victory, div.high, div.theology{
+        width: 75vw;
+        font-size: 1.7em;
+    }
+    footer#foot.footer{
+        width: 155vw;
+    }
+    img.cathepic{
+        width: 60vw;
+    }
+    button#nexted{
+        margin-left: 35em;
+    }
+    img.teklil{
+        width: 50vw;
+    }
+    table{
+        transform: scale(0.8);
+        transform-origin: top left;
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+       h2.mycer{
+       width: 80vw;
+       }
+       img.bikeimg{
+       width: 50vw;
+       }
+       td.tdd, td.tdn{
+       width: 0.1vw;
+       font-size: 3em; 
+       }
+       td.tdh{
+         width: 0.1vw;
+         font-size: 3em; 
+       }
+        th.no , th.desc , th.img, th.sk{
+         width: 0.01vw;
+        font-size: 3em; 
+        }
+        div.sofa{
+        font-size: 1.8em;
+        margin-top:-10em ;
+        width: 130vw;
+        margin-left: 10%;
+         }
+        div.bike{
+        width: 70vw;
+        font-size: 1.8em;
+        margin-right: 2em;
+         }
+         div.hour{
+        width: 80vw;
+        }
+        th.img{
+         border-radius: 0;
+        border: solid beige;
+        }
+        img.ankelba{
+         width: 80vw;
+        }
+       img.hourimg{
+        width: 60vw;
+       margin: 0.9em;
+     }
+     div.thea{
+        width: 160vw;
+        font-size: 1.5em;
+     }
+}
+@media screen and (min-width:769px) and (max-width: 1023px){
+    a.homenav{
+        font-size: 2em;
+    } 
+    fieldset.field{
+        width: 90vw ;
+     }
+    legend.legend{
+        font-size: 2em;
+    }
+     section.album{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+     }
+     h2.photohead, div.portfolio{
+        grid-column: 1/3;
+        font-size: 2.1em;
+     }
+     p.note, div.address, aside.essay{
+        font-size: 1.6em;
+     }
+     div.victory, div.high, div.theology, article.mary, div.uni, aside.trans{
+        width: 60vw;
+        font-size: 1.4em;
+     }
+     img.mykg, img.uscathe{
+        width: 50vw;
+     }
+     img.teklil{
+        width: 60vw;
+     }
+     h1.myed{
+        margin-left: 0;
+     }
+     img.elpic, img.cathepic{
+        width: 45vw;
+     }
+     img.liboimg{
+        width: 35vw;
+     }
+     footer#foot.footer{
+        width: 120vw;
+     }
+     video.volvid{
+        margin-left: 10% ;
+     }
+     div.thea, div.ride,div.liturgy{
+        font-size: 1.7em;
+     }
+     h2.myskil{
+        width: 90vw;
+     }
+     table{
+        transform: scale(0.8);
+        transform-origin: top left;
+        margin-top: 1em;
+        margin-bottom: 0em;
+    }
+    p.myall, h2#saint.read{
+        font-size: 3.1em;
+    }
+    li.mine{
+        height: 130vh;
+        font-size: 2.1em;
+    }
+       h2.mycer{
+       width: 80vw;
+       }
+       img.bikeimg{
+       width: 50vw;
+       }
+       td.tdd, td.tdn{
+       width: 0.1vw;
+       font-size: 3em; 
+       }
+       td.tdh{
+         width: 0.1vw;
+         font-size: 3em; 
+       }
+        th.no , th.desc , th.img, th.sk{
+         width: 0.01vw;
+        font-size: 3em; 
+        }
+        div.sofa{
+        font-size: 1.8em;
+        margin-top:-10em ;
+        width: 130vw;
+        margin-left: 10%;
+         }
+        div.bike{
+        width: 70vw;
+        font-size: 1.8em;
+        margin-right: 2em;
+         }
+         div.hour{
+        width: 80vw;
+        }
+        th.img{
+         border-radius: 0;
+        border: solid beige;
+        }
+        img.ankelba{
+         width: 80vw;
+        }
+       img.hourimg{
+        width: 60vw;
+       margin: 0.9em;
+     }
+     button#nexted{
+        margin-left: 45em;
+    }
+    html{
+        margin-left: 2em;
+    }
+    button#nexted{
+        margin-left: 35em;
+    }
+}
+@media screen and (min-width: 1024px){
+    div.portfolio{
+         width: 95vw;
+         font-size: 1.7em;
+    }
+    a.homenav{
+        width: 30vw;
+        font-size: 1.5em;
+        background-color: white;
+    }
+    h3.less{
+        height: 10vh;
+    }
+    img.ai{
+        width: 25vw;
+    }
+    img.img, img.img2{
+        width: 17vw;
+    }
+    img.img{
+        grid-column: 1/3;
+    }
+    img.aimg{
+        width: 17vw;
+    }
+   section.about{
+        width: 80vw;
+        margin: 0.3em;
+        margin-left: 2em;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .childpic{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(211, 226, 226);
+        border-radius: 5em;
+        width: fit-content;
+        justify-content: right;
+    }
+    .less{
+        font-size: 1.8em;
+        margin-left: 2em;
+        grid-column: 1/4;
+        text-align: center;
+    }
+    div.address{
+        width: 35vw;
+        height: fit-content;
+    }
+    .adultpic, .childpic{
+        width: 40vw;
+    }
+    section.album{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 1em;
+    }
+    h2.photohead{
+        grid-column: 1/3;
+        width: 80vw;
+    }
+    .one{
+        width: 50vw;
+    }
+    h1{
+        color: white;
+    }
+    fieldset.field, aside.essay{
+        width: 50vw;
+        font-size: 1.3em;
+    }
+    .note{
+        font-size: 1.2em;
+    }
+    .legend{
+        font-size: 1.6em;
+    }
+    .bethel, .add, a.add.insta{
+        font-size: 1.6em;
+        font-weight: bold;
+    } 
+    .next{
+        margin-left: 35em;
+    } 
+    .ed{
+        width: 85vw;
+    }
+    div.askuala{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    img.elpic, img.aait, img.mykg, img.uscathe, img.kolo, img.teklil, img.cathepic{
+        width: 35vw;
+    }
+    article.mary, div.theology{
+        font-size:1.4em;
+    }
+    p.abvic, p.catnote{
+        font-size: 1.5em;
+    }
+    h1.myed{
+        grid-column: 1/3;
+        width: 70vw;
+        margin-right: 0;
+    }
+    div.victory, div.uni,aside.trans {
+          width: 45vw;
+          margin: 0.4em;
+    }
+    article.mary, div.theology, div.high{
+        width: 40vw;
+        height: fit-content;
+    }
+    h3.praise, h3.regular{
+        font-size: 2em;
+    }
+    div.theology , article.mary{
+         height: fit-content;
+    
+    }
+    aside.trans{
+        height: 50vh;
+        margin-right: 0;
+    }
+    footer#foot.footer{
+        width: 90vw;
+    }
+    h1.mych{
+        width: 60vw;
+        margin: 0 15%;
+    }
+    .ed{
+        width: 85vw;
+    }
+    div.askuala{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    img.elpic, img.aait, img.mykg, img.uscathe, img.kolo, img.teklil, img.cathepic{
+        width: 35vw;
+    }
+    article.mary, div.theology{
+        font-size:1.4em;
+    }
+    p.abvic, p.catnote{
+        font-size: 1.5em;
+    }
+    h1.myed{
+        grid-column: 1/3;
+        width: 70vw;
+        margin-right: 0;
+    }
+    div.victory, div.uni,aside.trans {
+          width: 45vw;
+          margin: 0.4em;
+    }
+    article.mary, div.theology, div.high{
+        width: 40vw;
+        height: fit-content;
+    }
+    h3.praise, h3.regular{
+        font-size: 2em;
+    }
+    div.theology , article.mary{
+         height: fit-content;
+    
+    }
+    aside.trans{
+        height: 50vh;
+        margin-right: 0;
+    }
+    footer#foot.footer{
+        width: 90vw;
+    }
+    h1.mych{
+        width: 60vw;
+        margin: 0 15%;
+    }
+    div.hobbox{
+        width: 60vw;
+        margin: 0 5%;
+    }
+    img.mineimg, img.theaimg ,img#giorgis.bookimg{
+        width: 25vw;
+    }
+    img.ridimg{
+        width: 30vw;
+    }
+    img.usc{
+        width: 25vw;
+    }
+    img.actimg{
+        width: 30vw;
+    }
+    h2#saint.read, h1.myvol{
+        font-size: 2.5em;
+    }
+    li.mine{
+        width: 35vw;
+        height: fit-content;
+        padding: 1em;
+    }
+    h2.read{
+        width: 40vw;
+    }
+    div.ride{
+        width: 50vw;
+    }
+    div.liturgy{
+        width: 60vw;
+        margin: 0 30%;
+    }
+    div.thea{
+        margin-left:4em;
+        width: 70vw;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+    }
+    h2.theatre, h4.drama{
+        width: 20vw;
+    }
+    div.fiction{
+        margin-left: 3em;
+    }
+    h2.myskil{
+         width: 90vw;
+    }
+    table{
+      transform: scale(0.4);
+      transform-origin: top left;
+      margin-top: 1em;
+      margin-bottom: 0em;
+    }
+    h2.mycer{
+     width: 80vw;
+    }
+   img.bikeimg{
+     width: 20vw;
+   }
+   td.tdd, td.tdn{
+     width: 0.1vw;
+     font-size: 3em; 
+   }
+   section.ms{
+     height: 65em;
+   }
+   td.tdh{
+     width: 0.1vw;
+     font-size: 3em; 
+     }
+   th.no , th.desc , th.img, th.sk{
+     width: 0.01vw;
+     font-size: 3em; 
+   }
+   div.sofa{
+     width: 70vw;
+     margin-left: 15%;
+   }
+   div.bike{
+     width: 40vw;
+     margin-right: 2em;
+   }
+   div.hour{
+     width: 40vw;
+   }
+   th.img{
+     border-radius: 0;
+     border: solid beige;
+   }
+   img.ankelba{
+     width: 50vw;
+   }
+   img.hourimg{
+     width: 30vw;
+     margin: 0.9em;
+   }
+ }
