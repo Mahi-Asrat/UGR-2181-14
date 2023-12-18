@@ -6,69 +6,82 @@
     <title> Home </title>
     <link href="../css/styles.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="../js/script.js"></script>
 </head>
-<body class="body hom" >
-    <div class="navigation home">
+<body class="home" >
+    <div class="home__nav">
         <nav>
-          <div class="navdiv">
-          <a class="homenav ed"  href="education.html"> &#9997;  My Education</a>
-          <a class="homenav vol" href="volunteer.html"> &#127757; My Volunteer </a>
-          <a class="homenav hob" href="hobby.html"> &#9918; My Hobby</a>                                                                                                                                                                                       
-          <a class="homenav skill"  href="skills.html"> &#10004; My Skills </a>
+          <div class="home__nav__navdiv">
+          <a class="home__nav__navdiv__homenav ed"  href="education.html"> &#9997;  My Education</a>
+          <a class="home__nav__navdiv__homenav vol" href="volunteer.html"> &#127757; My Volunteer </a>
+          <a class="home__nav__navdiv__homenav hob" href="hobby.html"> &#9918; My Hobby</a>                                                                                                                                                                                       
+          <a class="home__nav__navdiv__homenav skill"  href="skills.html"> &#10004; My Skills </a>
           </div> <br> <br>
         </nav>
     </div>
-      
-      <div class="portfolio"> 
-          <h1> &#10022;  My Portfolio  &#10022; </h1>
+      <div class="home__portfolio"> 
+          <h4> &#x2728; My Portfolio  &#x2728; <span></span> </h4>
       </div> 
       <br> <br> 
-      <section class="about"> 
-        <div class="main">
-          <fieldset class ="field">
-              <legend class ="legend"><h2> &#9787; Mahlet Asrat  </h2> </legend>
-              <img class="ai" src="../files/my_grad.jpg" alt="My Picture">
-             <p class="note"> Meet Mahlet, a passionate and driven software engineering student at AAU who is dedicated to her studies and the world of technology. With an unwavering enthusiasm for learning, she is constantly pushing the boundaries of her knowledge and skills in the field. 
+      <section class="home__about"> 
+          <div>
+            <fieldset class ="home__about__field">
+              <legend class ="home__about__field__legend"><h2> &#9787; Mahlet Asrat  </h2> </legend>
+              <img class="home__about__field__ai" src="../files/my_grad.jpg" alt="My Picture">
+             <p class="home__about__field__note"> Meet Mahlet, a passionate and driven software engineering student at AAU who is dedicated to her studies and the world of technology. With an unwavering enthusiasm for learning, she is constantly pushing the boundaries of her knowledge and skills in the field. 
               But her ambitions don't stop there. Mahlet is also actively involved in motivating and inspiring girls to pursue STEM fields, recognizing the importance of diversity and inclusivity in the tech industry.
                Through her work, she strives to break down barriers and empower young girls to embrace their potential in the world of science, technology, engineering, and mathematics
-           </fieldset>
+             </fieldset>
+            </div>
+        <div class="home__about__address">
+          <a class="home__about__address__add email" href="mailto:mahletasratz@gmail.com"> <h3> &#9993; E-mail me </h3> </a> 
+          <a class="home__about__address__add phone"  href="tel:+251900830829"> <h3> <i class="fa fa-phone"></i> Phone me </h3></a>
+          <a class="home__about__address__add insta"  href="https://www.instagram.com/skiunior/"><i class="fa fa-instagram"></i> My Instagram </a>
+          <address class="home__about__address__bethel"> Bethel, Addis Ababa, Ethiopia</address>
         </div>
-        <div class="address">
-          <a class="add email" href="mailto:mahletasratz@gmail.com"> <h3> &#9993; E-mail me </h3> </a> 
-          <a class="add phone"  href="tel:+251900830829"> <h3> <i class="fa fa-phone"></i> Phone me </h3></a>
-          <a class="add insta"  href="https://www.instagram.com/skiunior/"><i class="fa fa-instagram"></i> My Instagram </a>
-          <address class="bethel"> Bethel, Addis Ababa, Ethiopia</address>
-        </div>
-        <aside class="essay">
-         <h4>I am deeply passionate about works that require creative thinking, such as writing and making plays. 
+        <aside class="home__about__essay">
+         <h3>I am deeply passionate about works that require creative thinking, such as writing and making plays. 
           These artistic endeavors allow me to explore the depths of my imagination and bring my ideas to life in 
           unique and captivating ways. Through writing and making plays, I have the opportunity to express my thoughts, emotions, and perspectives,
            and to connect with others on a profound level. 
-        </h4>
-        <a class="eslin" href="/images/Book-Club-Certificate.pdf" download="Mahlet's-Personal-Essay"> Download My Personal-Essay  </a>
+        </h3>
+        <a href="/images/Book-Club-Certificate.pdf" download="Mahlet's-Personal-Essay"> Download My Personal-Essay  </a>
          </aside>
       </section>
       <hr>
-      <section class="album"> 
-        <h2 class="photohead"> My Photo Album </h2>
-        <div class="childpic"> 
-          <h3 class="less"> Age &lt; = 10 </h3>
-          <img class="img" src="../files/child_1.jpg" alt="Baby Image">
-          <img class="img2" src="../files/twiny.jpg" alt="Me and my Twin">
-          <img class="img" src="../files/me_child.jpg" alt="When I was a kid">
+      <section class="home__about__album"> 
+        <h2 class="home__about__album__photohead"> My Photo Album </h2>
+        <div class="mira">
+        <div class="container">
+          <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button symbol"> &#10094; </button>
+              <div class="image-list">
+                <img src="../files/child_1.jpg" alt="Child pic" class="img-item">
+                <img src="../files/child_grad.jpg" alt="Child pic" class="img-item">
+                <img src="../files/us_cathe.jpg" alt="Child pic" class="img-item">
+                <img src="../files/my_grad.jpg" alt="Child pic" class="img-item">
+                <img src="../files/wechurch.jpg" alt="Child pic" class="img-item">
+                <img src="../files/twiny.jpg" alt="Child pic" class="img-item">
+                <img src="../files/Me.jpg" alt="Child pic" class="img-item">
+                <img src="../files/mine.jpg" alt="Child pic" class="img-item">
+                <img src="../files/vac.jpg" alt="Child pic" class="img-item">
+              </div>
+              <button id="next-slide" class="slide-button symbol"> &#10095; </button>
+          </div>
+          <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+              <div class="scrollbar-thumb">
+
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="adultpic"> 
-          <h3 class="great"> Age Greater than 11 </h3>
-          <img class="aimg one " src="../files/mine.jpg" alt="My picture">
-          <img class="aimg two" src="../files/group_pic.jpg" alt="Graduation">
-          <img class="aimg three" src="../files/adult_1.jpg" alt="With Friends">
-          <img class="aimg four" src="../files/Me.jpg" alt="Vacation" >
-        </div>
+      </div>
       </section>
-      <div class="next">
+      <div class="home__next">
         <form action="education.html"> <button type="submit"> Next Page</button> </form>
       </div>
-      <footer class="footer"> © Copyright  | Nov, 2023 | Protected By law </footer>
+      <footer class="home__footer"> © Copyright  | Nov, 2023 | Protected By law </footer>
       
 </body>
 </html>

@@ -1,18 +1,18 @@
-.about{
+.home__about{
     margin: 0.3em;
 }
-.hom{
+.home{
     background-image: url(https://images.unsplash.com/photo-1557128928-66e3009291b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D); 
 }
-.home{
+.home__nav{
     width: 90vw;
    margin: 2em;
 }
-.navdiv{
+.home__nav__navdiv{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.homenav{
+.home__nav__navdiv__homenav{
     text-decoration: none;
     color: black;
     background-color: white;
@@ -26,11 +26,11 @@
     text-align: center;
     text-decoration: underline;
 }
-.homenav:hover{
+.home__nav__navdiv__homenav:hover{
     background-color: rgb(237, 227, 227);
     color: brown;
 }
-.portfolio{
+.home__portfolio{
     color: rgb(17, 46, 17);
     text-align: center;
     width: 110vw;
@@ -39,27 +39,27 @@
     border-radius: 10em;
     background-image: url(../files/Church.jpg);
 }
-.field{
+.home__about__field{
     width: 110vw;
     border: solid 0.4em;
     background-color: azure;
     margin-bottom: 0.5em;
 }
-.ai{
+.home__about__field__ai{
     width: 50vw;
     border-radius: 7em;  
 }
-legend{
+.home__about__field__legend{
     color: rgb(180, 0, 0);
     font-size: larger;
     font-weight: bold;
 }
-.note{
+.home__about__field__note{
     font-family: "serif";
     font-weight: bold;
     font-size: 1.2em;
 }
-.address{
+.home__about__address{
     display: grid;
     grid-template-columns: auto auto;
     box-shadow: 0 0 0.6em rgb(237, 186, 194);
@@ -69,11 +69,11 @@ legend{
     width: 80vw;
     background-color: rgb(244, 244, 156); 
 }
-.bethel{
+.home__about__address__bethel{
     margin-top: 1.3em;
     font-weight: bold;
 }
-.add{
+.home__about__address__add{
     color:rgb(241, 99, 99) ;
     border-radius: 3em;   
     margin: 0.7em; 
@@ -83,13 +83,13 @@ legend{
     font-weight: bold;
     font-size: large;
 }
-.essay{
+.home__about__essay{
     background-color: white;
     border: 0.4em double black;
     padding: 0.4em;
     opacity: 0.8;
 }
-.photohead{
+.home__about__album__photohead{
      background-image: url(../files/Church.jpg);
      text-align: center;
      color: white;
@@ -99,34 +99,34 @@ legend{
      border-radius: 2em;
      padding: 0.4em;
 }
-.photohead:hover{
+.home__about__album__photohead:hover{
     background-image: url(../files/bec79416b47de044cfb9e1607b8c92db.jpg);
 }
-.childpic{
+.home__about__album__childpic{
     display: grid;
     grid-template-columns: auto auto;
     background-color: rgb(211, 226, 226);
     border-radius: 5em;
     width: fit-content;
 }
-.less{
+.home__about__album__childpic__less{
     font-size: 1.5em;
     margin-left: 2em;
     grid-column: 1/3;
 }
-.img{
+.home__about__album__childpic__img{
     margin: 1em;
     border: solid brown 0.3em;
     border-radius: 4em;  
     width: 10em;
 }
-.img2{
+.home__about__album__childpic__img2{
     margin: 1em;
     border: solid brown 0.3em;
     border-radius: 4em;  
     width: 10em;
 }
-.adultpic{
+.home__about__album__adultpic{
        display: grid;
        grid-template-columns: auto auto;
        background-color: rgb(244, 244, 156); 
@@ -134,7 +134,7 @@ legend{
        border-radius: 5em;
        width: fit-content;
 }
-.great{
+.home__about__album__adultpic__great{
     font-size: 1.5em;
     margin-left: 2em;
     grid-column: 1/3;
@@ -144,17 +144,17 @@ legend{
     grid-area: 2 /2 ;
 }
 
-.aimg{
+.home__about__album__adultpic__aimg{
     margin: 1em;
     border: solid rgb(165, 42, 118) 0.3em;
     border-radius: 4em;
     width: 12em;
 }
-.next{
+.home__next{
     margin: 2em 0;
     text-align: right;
 }
-.footer{
+.home__footer{
     margin: 0.6em;
     padding: 1em;
     background-color: rgb(210, 210, 210);
@@ -162,13 +162,13 @@ legend{
     box-shadow: 0 0 1em ;
 }
 /* Eduation page Style*/
-.askuala{
+.ed__askuala{
     margin: 0;
     width: 90vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.myed{
+.ed__askuala__myed{
     width: 110vw;
     background-image: url(../files/Church.jpg);
     color: white;
@@ -180,7 +180,7 @@ legend{
     border-radius: 10em;
     grid-column: 1/3;
 }
-.victory{
+.ed__askuala__victory{
     background-color: white;
     width: 100vw;
     border: solid;
@@ -188,40 +188,40 @@ legend{
     border-radius: 2em;
     box-shadow: 0 0 0.3em rgb(70, 93, 18);
 }
-.el{
+.ed__askuala__victory__el{
     color: rgb(128, 0, 0);
     text-align: center;
     text-decoration: underline;
     font-size: 1.7em;
 }
-.elpic{
+.ed__askuala__victory__elpic{
     width: 60vw;
     margin: 1em;
      height: 20vh;
     border-radius: 2em;
     border: solid;
 }
-.abvic{
+.ed__askuala__victory__abvic{
     font-size: 1.3em;
     margin: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
-.motohead{
+.ed__askuala__victory__motohead{
     font-size: 1.4em;
     font-weight: bold;
     padding-left: 0.6em;
 }
-.moto{
+.ed__askuala__victory__moto{
     font-size: 1.3em;
     color: rgb(111, 69, 111);
 }
-.mykg{
+.ed__askuala__victory__mykg{
     width: 73vw;
     margin: 1em;
     border-radius: 6em;
     border: 2px solid rgb(115, 70, 78);
 }
-.high{
+.ed__askuala__high{
     background-color: white;
     width: 100vw;
     border: solid;
@@ -229,31 +229,31 @@ legend{
     border-radius: 2em;
     box-shadow: 0 0 0.3em rgb(70, 93, 18);
 }
-.cathepic{
+.ed__askuala__high__cathepic{
     width: 75vw;
     margin: 1em;
     border-radius: 2em;
     border: solid;
     height: 40vh;
 }
-.catnote{
+.ed__askuala__high__catnote{
     font-size: 1.3em;
     margin: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
-.cathe{
+.ed__askuala__high__cathe{
     font-size: 2em;
     color: rgb(128, 0, 0);
     text-align: center;
     text-decoration: underline;
 }
-.uscathe{
+.ed__askuala__high__uscathe{
     width: 60vw;
     margin: 1em;
     border-radius: 6em;
     border: 2px solid rgb(115, 70, 78);
 }
-.uni{
+.ed__askuala__uni{
     background-color: white;
     box-shadow: 0 0 0.5em rgb(70, 93, 18);
     border: solid;
@@ -261,24 +261,24 @@ legend{
     border-radius: 2em;
     width: 90vw;
 }
-.unihead{
+.ed__askuala__uni__unihead{
     color: rgb(128, 0, 0);
     text-align: center;
     text-decoration: underline;
     font-size: 3em;
 }
-.aait{
+.ed__askuala__uni__aait{
     width: 45vw;
     margin: 1em;
     border-radius: 2em;
     border: solid;  
 }
-.aanote{
+.ed__askuala__uni__aanote{
     font-size: 1.9em;
     margin: 1em;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
-.trans{
+.ed__askuala__trans{
     background-color: white;
     border: solid;
     width: 70vw;
@@ -287,12 +287,12 @@ legend{
     box-shadow: 0 0 1.5em rgb(113, 92, 95);
     padding: 1em;
 }
-.file{
+.ed__askuala__trans__file{
     color: rgb(60, 106, 106);
     font-size: 2em;
     font-weight: bold;
 }
-.transcript{
+.ed__askuala__trans__transcript{
     font-size: 1.5em;
     border: solid;
     padding: 0.9em;
@@ -301,15 +301,15 @@ legend{
     background-color: rgb(0, 0, 108);
     color: white;
 }
-.transcript:hover{
+.ed__askuala__trans__transcript:hover{
     background-color: lightgray;
 }
-.church{
+.ed__church{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 0.2em;
 }
-.mych{
+.ed__mych{
     box-shadow: 0 0 0.3em black;
     color: rgb(239, 245, 239);
     text-align: center;
@@ -320,18 +320,18 @@ legend{
     border-radius: 1em;
     background-image: url(../files/Church.jpg);
 }
-#giorgis{
+.ed__church__giorgis{
     border-radius: 6em;
     width: 40vw;
     margin: 0.5em;
     border: 2px solid;
 }
-#saint{
+.ed__church__saint{
    text-align: center;
    font-size: 2.5em;
    color: rgb(0, 0, 0);
 }
-.mary{
+.ed__church__mary{
     background-color: white;
     width: 90vw;
     border: solid;
@@ -341,20 +341,20 @@ legend{
     margin: 0.4em;
     box-shadow: 0 0 0.3em;
 }
-.praise{
+.ed__church__mary__praise{
     font-size: 2em;
 }
-.tue{
+.ed__church__mary__tue{
     font-size: 1.5em;
 }
-.kolo{
+.ed__church__mary__kolo{
     width: 55vw;
     border: solid;
 }
-.teklil{
+.ed__church__theology__thesis__teklil{
     width: 70vw;
 }
-.theology{
+.ed__church__theology{
     background-color: white;
     width: 95vw;
     border: solid;
@@ -363,44 +363,40 @@ legend{
     margin: 0.4em;
     box-shadow: 0 0 0.3em ;
 }
-.regular{
+.ed__church__theology__regular{
     font-size: 1.8em;
     text-align: center;
 }
-.classes{
+.ed__church__theology__classes{
     font-size: 1.7em;
 }
-ul{
+.ed__church__theology__ul{
     font-size: 1.4em;
 }
-.lihead{
+.ed__church__theology__lihead{
     color: brown;
     font-size: 1.5em;
 }
-.thesis{
+.ed__church__theology__thesis{
     font-weight: bold;
 }
-.button{
+.ed__button{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
-#nexted{
+.nexted{
     margin-left: 10em;
     padding: 0.5em;
     font-size: 1.5em;
     color: black;
 }
-#foot{
+.foot{
     font-size: 1.4em;
     width: 180vw;
 }
 
-#ednav{
-    background-color: white;
-    font-size: 1.3em;
-}
-#preved{
+.preved{
     font-size: 1.5em;
 }
 .ed{
@@ -408,29 +404,7 @@ ul{
     background-image: url(https://images.unsplash.com/photo-1532456745301-b2c645d8b80d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdoaXRlJTIwZ2VvbWV0cmljfGVufDB8fDB8fHww);
 }
  /* My volunteer page CSS*/
-
- @media screen and (min-width: 1024px){
-    div.volbox{
-        width: 60vw;
-    }
-    video.volvid{
-        width: 55vw;
-    }
-    div.ken, div.libo, div.plantbox, .divstem{
-        width: 45vw;
-    }
-    p.kennote , p.libonote, p.stemnote, p.plantnote{
-        font-size: 1.6em;
-        font-weight: bold;
-    }
-    img.johnimg, img.liboimg, img.plantimg, img.stemimg {
-        width: 30vw;
-    }
-    footer.footer.fv{
-        width: 90vw;
-    }
- }
-.volbox{
+.vol__volbox{
     background-color: white;
     width: 110vw;
     margin: 2em 25%;
@@ -438,10 +412,7 @@ ul{
     border-radius: 2em;
     box-shadow: 0 0 1em;
 }
-#nextvol{
-    margin-left: 45em;
-}
-.myvol{
+.vol__volbox__myvol{
     color:white;
     text-align: center;
     font-size: 1.5em;
@@ -451,162 +422,188 @@ ul{
     border-radius: 10em;
     background-image: url(../files/Church.jpg);
 }
-.volvid{
-  width: 95vw;
+.vol__volbox__volvid{
+  width: 90vw;
   border-radius: 3em;
   border: double;
   margin: 0.3em ;
 }
+
 .vol{
     background-image: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D);
 }
-.volunteer{
+.vol__volunteer{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.ken{
+.vol__volunteer__ken{
     width: 90vw;
     box-shadow: 0 0 0.5em;
     margin: 0.5em;
     border-radius: 1.6em;
     background-color: rgb(246, 248, 226);
 }
-.summer{
+.vol__volunteer__ken__summer{
     width: 10em;
     font-size: 2em;
     text-align: center;
     text-decoration: underline;
 }
-.johnimg{
+.vol__volunteer__ken__johnimg{
     width:40vh;
     height: 50vh;
     margin: 1em;
     border: brown solid;
     border-radius: 2em;
 }
-.kennote{
+.vol__volunteer__ken__kennote{
     text-align: center;
     font-size: 1.6em;
     color: rgb(15, 65, 15);
 }
-.libo{
+.vol__volunteer__libo{
     box-shadow: 0 0 0.5em;
     width: 20em;
     margin: 0.8em;
     border-radius: 1.6em;
     background-color: rgb(243, 206, 206);
 }
-.assist{
+.vol__volunteer__libo__assist{
     font-size: 2em;
     text-align: center;
     text-decoration: underline;
 }
-.liboimg{
+.vol__volunteer__libo__liboimg{
     width: 45vw;
     margin: 1em;
     border: brown solid;
     border-radius: 2em;
 }
-.libonote{
+.vol__volunteer__libo__libonote{
     text-align: center;
     font-size: 1.4em;
     color: rgb(15, 65, 15);
 }
-.plantbox{
+.vol__volunteer__plantbox{
     width: 90vw;
     box-shadow: 0 0 0.5em;
     margin: 1em;
     border-radius: 1.6em;
     background-color: rgb(243, 206, 206);
 }
-.plant{
+.vol__volunteer__plantbox__plant{
     width: 10em;
     font-size: 1.8em;
     text-align: center;
     text-decoration: underline;
 }
-.plantimg{
+.vol__volunteer__plantbox__plantimg{
     width: 45vw;
     margin: 1em;
     border: brown solid;
     border-radius: 2em; 
 }
-.plantnote{
+.vol__volunteer__plantbox__plantnote{
     text-align: center;
     font-size: 1.4em;
     color: rgb(15, 65, 15);
 }
-.stembox{
-    
+.vol__volunteer__stembox{ 
     background-color: rgb(246, 248, 226);
     box-shadow: 0 0 0.5em;
     margin: 1em;
     border-radius: 1.6em;
 }
-.stem{
-    width: 10em;
+.vol__volunteer__stembox__stem{
     font-size: 1.7em;
     text-align: center;
     text-decoration: underline;
 }
-.stemimg{
+.vol__volunteer__stembox__stemimg{
     margin: 1em;
     border: brown solid;
     border-radius: 2em; 
 }
-.stemnote{
+.vol__volunteer__stembox__stemnote{
     text-align: center;
     font-size: 1.4em;
     color: rgb(15, 65, 15);
 }
-.fv{
-    width: 90vh;
+.home__footer.fv{
+    width: 70vh;
 }
-button#nexted{
-    margin-left: 23em;
+.ed__button__next.nexted{
+    margin-left: 28em;
+}
+.nextvol{
+    margin-left: 45em;
 }
 /* Hobby page Style*/
-.hobbox{
-    box-shadow: 0 0 0.3em black;
+
+.hob__hobbox{
+    box-shadow: 0 0 0.5em black;
     padding: 0.4em;
     width: 130vw;
     border-radius: 2em;
     margin-left: 2em;
     background-color: rgb(248, 243, 244);
 }
+.hob__hobbox__hobvid{
+    width: 90vw;
+    border-radius: 3em;
+    border: double;
+    margin: 0.3em ;
+    margin-left: 10%;
+}
 .hob{
     background-image: url(https://images.unsplash.com/photo-1505085702750-96d89f461398?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHdoaXRlJTIwZ2VvbWV0cmljfGVufDB8fDB8fHww);
 }
-.fiction{
+.hob__hobbox__myhob{
+    color:white;
+    text-align: center;
+    font-size: 1.5em;
+    box-shadow: 0 0 0.3em rgb(126, 115, 101);
+    padding: 0.8em;
+    margin: 0.5em;
+    border-radius: 10em;
+    background-image: url(../files/Church.jpg);
+}
+
+.hob__fiction{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 90vw;
 }
-.read{
+.hob__fiction__read{
     width: 90vw;
     margin-top: 2.5em;
     text-decoration: underline;
+    font-size: 2.5em;
+    margin-left: 15%;
 }
-.bookimg{
+.hob__fiction__bookimg{
     padding: 0.5em;
+    width: 60vw;
+    margin: 1.5em;
+    border: solid black;
+    border-radius: 6em;
 }
-.myall{
+.hob__fiction__myall{
     grid-column: span 2;
     font-size: 2.4em;
     font-weight: bold;
 }
-.ul{
+.hob__fiction__ul{
     grid-column: 1/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     list-style-type: none;
     margin: 0 ;
     padding: 0;
-}
-ul.ul{
+    font-size: 1.2em;
     width: 100vw;
 }
-li.mine{
+li.hob__fiction__ul__mine{
     width: 80vw;
     border-radius: 2em;
     box-shadow: 0 0 0.5em black;
@@ -617,12 +614,12 @@ li.mine{
     height: 70vh;
     background-color: antiquewhite;
 }
-.mineimg{
+.hob__fiction__ul__mineimg{
     width: 40vw;
     border-radius: 2em;
     padding: 1.5em;
 }
-.thea{
+.hob__thea{
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 2em;
@@ -630,24 +627,24 @@ li.mine{
     box-shadow: 0 0 0.8em black;
     background-color: rgb(226, 239, 243);
 }
-.theatre{
+.hob__thea__theatre{
     text-decoration: underline;
     padding: 0.5em;
     color: brown;
     font-size: 2.2em;
 }
-.theaimg{
+.hob__thea__theaimg{
     width: 65vw;
     border-radius: 4em;
     padding: 1em;
 }
-.theanote{
+.hob__thea__theanote{
     grid-column: 1/3;
     align-items: start;
     font-size: 2em;
     padding: 0.3em;
 }
-.drama{
+.hob__thea__drama{
     font-size: 2em;
     color: rgb(7, 51, 7);
     padding: 0.4em;
@@ -658,13 +655,13 @@ dt{
 dd{
     font-size: 1.5em;
 }
-.actimg{
+.hob__thea__actimg{
     width: 40vh;
     margin: 3em;
     border: double 0.3em;
     border-radius: 3em;
 }
-.ride{
+.hob__ride{
     box-shadow: 0 0 2em;
     padding: 1em;
     margin: 1.5em;
@@ -673,14 +670,14 @@ dd{
     width: 140vw;
     background-color: rgb(245, 238, 228);
 }
-.ridimg{
+.hob__ride__theatre__ridimg{
     width: 70vw;
     border: solid;
 }
-.ridnote{
+.hob__ride__theatre__ridnote{
     font-size: 1.5em;
 }
-.liturgy{
+.hob__liturgy{
     background-color: white;
     box-shadow: 0 0 1em black;
     border-radius: 2em;
@@ -693,28 +690,27 @@ audio{
     border-radius: 1.4em;
     margin: 0.3em 25%;
 }
-.litimgs{
+.hob__liturgy__litimgs{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.usc{
+.hob__liturgy__litimgs__usc{
     border-radius: 3em;
     height: 30vh;
     border: solid;
     width: 70vw;
     margin: 0.3em;
 }
-.pray{
+.hob__liturgy__litimgs__pray{
     border-radius: 3em;
     height: 40vh;
 }
-.litnote{
+.hob__liturgy__litnote{
     font-size: 2em;
 }
 
-
 /* My skills Css*/
-.myskil{
+.skill__ms__myskil{
     width: 170vw;
     color:white;
     text-align: center;
@@ -743,7 +739,7 @@ td{
     padding: 0.2em;
     font-size: 1.4em;
   }
-.tdh{
+.skill__ms__tdh{
     font-weight: bold;
 }
 th{
@@ -752,14 +748,14 @@ th{
 td img{
     width:90%
 }
-.other{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 th.img{
     border: solid beige;
   }
-.sofa{
+.skill__ms__other{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skill__ms__other__sofa{
     width: 100vh;
     grid-column: 1/3;
     box-shadow: 0 0 0.5em black;
@@ -767,7 +763,7 @@ th.img{
     border-radius: 2em;
     background-color: rgb(243, 252, 242);
 }
-.myad{
+.skill__ms__other__sofa__myad{
     font-size: 2em;
     text-align: center;
     color: brown;
@@ -776,17 +772,17 @@ th.img{
     padding: 0.3em;
     background-color: white;
 }
-.ankelba{
+.skill__ms__other__sofa__ankelba{
     margin: 0.3em 20%;
     width: 100vw;
         border: solid;
     border-radius: 2em;
 }
-.notes{
+.skill__ms__bike__notes{
     font-size: 1.8em;
     padding: 0.3em;
 }
-.bike{
+.skill__ms__bike{
     font-size: 1.4em;
     width: 90vw;
     box-shadow: 0 0 0.3em;
@@ -794,18 +790,18 @@ th.img{
     margin: 0.3em;
     background-color: rgb(244, 253, 244);
 }
-.bikeimg{
+.skill__ms__bike__bikeimg{
     width: 80vw;
     border-radius: 2em;
     padding: 0.5em;
 }
-.certi{
+.skill__certi{
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1em;
 }
-.mycer{
+.skill__certi__mycer{
     background-image: url(../files/Church.jpg);
     opacity: 0.9;
     width: 150vw;
@@ -817,10 +813,10 @@ th.img{
     padding: 0.6em;
     border-radius: 2em;
 }
-.mycer:hover{
+.skill__certi__mycer:hover{
     background-image: url(../files/creative.jpg);
 }
-.hour{
+.skill__certi__hour{
     background-color: white;
     opacity: 0.9;
     width: 90vw;
@@ -828,7 +824,7 @@ th.img{
     margin: 0.5em;
     font-size: 1.4em;
 }
-.hourimg{
+.skill__certi__hour__hourimg{
     margin: 0.4em;
     border: solid;
     width: 70vw;
@@ -837,48 +833,46 @@ th.img{
 .skill{
     background-image: url(https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2hpdGUlMjBnZW9tZXRyaWN8ZW58MHx8MHx8fDA%3D);
 }
+
 @media screen and (min-width: 481px) and (max-width: 768px){
-    fieldset.field{
+    .home__about__field{
         width: 80vw;
         margin-left: 10%;
     }
-    div.childpic, div.adultpic{
+    .home__about__album__childpic, div.home__about__album__adultpic{
         width: 85%;
         margin-left: 8%;
         margin-top: 2em;
     }
-    img.img, img.img2 , img.aimg{
+    .home__about__album__childpic__img, img.home__about__album__childpic__img2 , img.home__about__album__adultpic__aimg{
         width: 35vw;
     }
-    li.mine{
-        height: 120vh;
-        font-size: 1.9em;
-    }
-    a.homenav{
+    .home__nav__navdiv__homenav{
         width: 30vw;
         font-size: 1.3em;
     }
-    nav.navdiv{
+    .home__nav__navdiv{
         width: 100vw;
     }
-    a#ednav.homenav{
-        font-size: 2em;
-    }
-    div.victory, div.high, div.theology{
+    .ed__askuala__victory, div.ed__askuala__high, div.ed__church__theology{
         width: 75vw;
         font-size: 1.7em;
     }
-    footer#foot.footer{
+    .home__footer.foot{
         width: 155vw;
     }
-    img.cathepic{
+    .ed__askuala__high__cathepic{
         width: 60vw;
     }
-    button#nexted{
+    .ed__button__next.nexted{
         margin-left: 35em;
     }
-    img.teklil{
+    img.ed__church__theology__thesis__teklil{
         width: 50vw;
+    }
+    li.hob__fiction__ul__mine{
+        height: 100vh;
+        font-size: 1.9em;
     }
     table{
         transform: scale(0.8);
@@ -886,17 +880,17 @@ th.img{
         margin-top: 1em;
         margin-bottom: 0em;
     }
-       h2.mycer{
+       h2.skill__certi__mycer{
        width: 80vw;
        }
-       img.bikeimg{
+       img.skill__ms__bike__bikeimg{
        width: 50vw;
        }
        td.tdd, td.tdn{
        width: 0.1vw;
        font-size: 3em; 
        }
-       td.tdh{
+       td.skill__ms__tdh{
          width: 0.1vw;
          font-size: 3em; 
        }
@@ -904,87 +898,94 @@ th.img{
          width: 0.01vw;
         font-size: 3em; 
         }
-        div.sofa{
+        div.skill__ms__other__sofa{
         font-size: 1.8em;
         margin-top:-10em ;
         width: 130vw;
         margin-left: 10%;
          }
-        div.bike{
+        div.skill__ms__bike{
         width: 70vw;
         font-size: 1.8em;
         margin-right: 2em;
          }
-         div.hour{
+         div.skill__certi__hour{
         width: 80vw;
         }
         th.img{
          border-radius: 0;
         border: solid beige;
         }
-        img.ankelba{
+        img.skill__ms__other__sofa__ankelba{
          width: 80vw;
         }
-       img.hourimg{
+       img.skill__certi__hour__hourimg{
         width: 60vw;
        margin: 0.9em;
      }
-     div.thea{
+     div.hob__thea{
         width: 160vw;
         font-size: 1.5em;
      }
 }
 @media screen and (min-width:769px) and (max-width: 1023px){
-    a.homenav{
+    .home__nav__navdiv__homenav{
         font-size: 2em;
     } 
-    fieldset.field{
+    .home__about__field{
         width: 90vw ;
      }
-    legend.legend{
+    .home__about__field__legend{
         font-size: 2em;
     }
-     section.album{
+    .home__about__album{
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2em;
      }
-     h2.photohead, div.portfolio{
+    .home__about__album__photohead, div.home__portfolio{
         grid-column: 1/3;
         font-size: 2.1em;
      }
-     p.note, div.address, aside.essay{
+    .home__about__field__note, div.home__about__address, aside.home__about__essay{
         font-size: 1.6em;
      }
-     div.victory, div.high, div.theology, article.mary, div.uni, aside.trans{
+    .ed__askuala__victory,.ed__askuala__high,.ed__church__theology,.ed__church__mary,.ed__askuala__uni,.ed__askuala__trans{
         width: 60vw;
         font-size: 1.4em;
+        height: fit-content;
      }
-     img.mykg, img.uscathe{
+    .ed__askuala__victory__mykg,.ed__askuala__high__uscathe{
         width: 50vw;
      }
-     img.teklil{
+    .ed__church__theology__thesis__teklil{
         width: 60vw;
      }
-     h1.myed{
+    .ed__askuala__myed{
         margin-left: 0;
      }
-     img.elpic, img.cathepic{
+    .ed__askuala__victory__elpic,.ed__askuala__high__cathepic{
         width: 45vw;
      }
-     img.liboimg{
-        width: 35vw;
+     img.vol__volunteer__libo__liboimg{
+        width: 30vw;
      }
-     footer#foot.footer{
+     .home__footer.foot{
         width: 120vw;
      }
-     video.volvid{
+     video.vol__volbox__volvid{
         margin-left: 10% ;
      }
-     div.thea, div.ride,div.liturgy{
+     img.hob__fiction__bookimg{
+        width: 35vw;
+     }
+     div.hob__thea, div.hob__ride, div.hob__liturgy{
         font-size: 1.7em;
      }
-     h2.myskil{
+     div.hob__thea{
+        width: fit-content;
+     }
+     h2.skill__ms__myskil{
         width: 90vw;
      }
      table{
@@ -993,17 +994,17 @@ th.img{
         margin-top: 1em;
         margin-bottom: 0em;
     }
-    p.myall, h2#saint.read{
+    p.hob__fiction__myall, h2.hob__fiction__read{
         font-size: 3.1em;
     }
-    li.mine{
-        height: 130vh;
+    li.hob__fiction__ul__mine{
+        height: 90vh;
         font-size: 2.1em;
     }
-       h2.mycer{
+       h2.skill__certi__mycer{
        width: 80vw;
        }
-       img.bikeimg{
+       img.skill__ms__bike__bikeimg{
        width: 50vw;
        }
        td.tdd, td.tdn{
@@ -1018,74 +1019,74 @@ th.img{
          width: 0.01vw;
         font-size: 3em; 
         }
-        div.sofa{
+        div.skill__ms__other__sofa{
         font-size: 1.8em;
         margin-top:-10em ;
         width: 130vw;
         margin-left: 10%;
          }
-        div.bike{
+        div.skill__ms__bike{
         width: 70vw;
         font-size: 1.8em;
         margin-right: 2em;
          }
-         div.hour{
+        div.skill__certi__hour{
         width: 80vw;
         }
         th.img{
          border-radius: 0;
         border: solid beige;
         }
-        img.ankelba{
+        img.skill__ms__other__sofa__ankelba{
          width: 80vw;
         }
-       img.hourimg{
+       img.skill__certi__hour__hourimg{
         width: 60vw;
        margin: 0.9em;
      }
-     button#nexted{
-        margin-left: 45em;
-    }
     html{
         margin-left: 2em;
     }
-    button#nexted{
-        margin-left: 35em;
+    .ed__button__next.nexted{
+        margin-left: 38em;
+    }
+    button{
+        font-size: 1.2em;
     }
 }
 @media screen and (min-width: 1024px){
-    div.portfolio{
+    div.home__portfolio{
          width: 95vw;
          font-size: 1.7em;
     }
-    a.homenav{
+    a.home__nav__navdiv__homenav{
         width: 30vw;
         font-size: 1.5em;
         background-color: white;
     }
-    h3.less{
+    h3.home__about__album__childpic__less{
         height: 10vh;
     }
-    img.ai{
+    img.home__about__field__ai{
         width: 25vw;
     }
-    img.img, img.img2{
+    img.home__about__album__childpic__img, img.home__about__album__childpic__img2{
         width: 17vw;
     }
-    img.img{
+    img.home__about__album__childpic__img{
         grid-column: 1/3;
     }
-    img.aimg{
-        width: 17vw;
+    img.home__about__album__adultpic__aimg{
+        width: 18vw;
     }
-   section.about{
+   section.home__about{
         width: 80vw;
         margin: 0.3em;
         margin-left: 2em;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .childpic{
+    .home__about__album__childpic{
         display: grid;
         grid-template-columns: auto auto auto;
         background-color: rgb(211, 226, 226);
@@ -1093,192 +1094,147 @@ th.img{
         width: fit-content;
         justify-content: right;
     }
-    .less{
+    .home__about__album__childpic__less{
         font-size: 1.8em;
         margin-left: 2em;
         grid-column: 1/4;
         text-align: center;
     }
-    div.address{
+    div.home__about__address{
         width: 35vw;
         height: fit-content;
     }
-    .adultpic, .childpic{
+    .home__about__album__adultpic, .home__about__album__childpic{
         width: 40vw;
     }
-    section.album{
+    section.home__about__album{
         display: grid;
         grid-template-columns: auto auto;
         gap: 1em;
     }
-    h2.photohead{
+    h2.home__about__album__photohead{
         grid-column: 1/3;
         width: 80vw;
-    }
-    .one{
-        width: 50vw;
+        font-size: 2em;
     }
     h1{
         color: white;
     }
-    fieldset.field, aside.essay{
+    fieldset.home__about__field, aside.home__about__essay{
         width: 50vw;
         font-size: 1.3em;
     }
-    .note{
+    .home__about__field__note{
         font-size: 1.2em;
     }
-    .legend{
+    .home__about__field__legend{
         font-size: 1.6em;
     }
-    .bethel, .add, a.add.insta{
+    .bethel, .home__about__address__add, a.add.insta{
         font-size: 1.6em;
         font-weight: bold;
     } 
-    .next{
+    .home__next{
         margin-left: 35em;
     } 
     .ed{
         width: 85vw;
     }
-    div.askuala{
+    .ed__askuala{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    img.elpic, img.aait, img.mykg, img.uscathe, img.kolo, img.teklil, img.cathepic{
+    .ed__askuala__victory__elpic,.ed__askuala__uni__aait,.ed__askuala__victory__mykg, .ed__askuala__high__uscathe, .ed__church__mary__kolo, .ed__church__theology__thesis__teklil, .ed__askuala__high__cathepic{
         width: 35vw;
     }
-    article.mary, div.theology{
+    .ed__church__mary,.ed__church__theology{
         font-size:1.4em;
     }
-    p.abvic, p.catnote{
+    .ed__askuala__victory__abvic, .ed__askuala__high__catnote{
         font-size: 1.5em;
     }
-    h1.myed{
+    .ed__askuala__myed{
         grid-column: 1/3;
         width: 70vw;
         margin-right: 0;
     }
-    div.victory, div.uni,aside.trans {
+    .ed__askuala__victory, .ed__askuala__uni, .ed__askuala__trans {
           width: 45vw;
           margin: 0.4em;
     }
-    article.mary, div.theology, div.high{
+    .ed__church__mary, .ed__church__theology, .ed__askuala__high{
         width: 40vw;
         height: fit-content;
     }
-    h3.praise, h3.regular{
+    .ed__church__mary__praise, .ed__church__theology__regular{
         font-size: 2em;
     }
-    div.theology , article.mary{
+    .ed__church__theology, .ed__church__mary{
          height: fit-content;
     
     }
-    aside.trans{
+    .ed__askuala__trans{
         height: 50vh;
         margin-right: 0;
     }
-    footer#foot.footer{
+    .home__footer.foot{
         width: 90vw;
     }
-    h1.mych{
+    .ed__mych{
         width: 60vw;
         margin: 0 15%;
     }
-    .ed{
-        width: 85vw;
+    .ed__button__next.nexted{
+        margin-left: 25em;
     }
-    div.askuala{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    img.elpic, img.aait, img.mykg, img.uscathe, img.kolo, img.teklil, img.cathepic{
-        width: 35vw;
-    }
-    article.mary, div.theology{
-        font-size:1.4em;
-    }
-    p.abvic, p.catnote{
-        font-size: 1.5em;
-    }
-    h1.myed{
-        grid-column: 1/3;
-        width: 70vw;
-        margin-right: 0;
-    }
-    div.victory, div.uni,aside.trans {
-          width: 45vw;
-          margin: 0.4em;
-    }
-    article.mary, div.theology, div.high{
-        width: 40vw;
-        height: fit-content;
-    }
-    h3.praise, h3.regular{
-        font-size: 2em;
-    }
-    div.theology , article.mary{
-         height: fit-content;
-    
-    }
-    aside.trans{
-        height: 50vh;
-        margin-right: 0;
-    }
-    footer#foot.footer{
-        width: 90vw;
-    }
-    h1.mych{
-        width: 60vw;
-        margin: 0 15%;
-    }
-    div.hobbox{
-        width: 60vw;
-        margin: 0 5%;
-    }
-    img.mineimg, img.theaimg ,img#giorgis.bookimg{
-        width: 25vw;
-    }
-    img.ridimg{
-        width: 30vw;
-    }
-    img.usc{
-        width: 25vw;
-    }
+
     img.actimg{
         width: 30vw;
     }
-    h2#saint.read, h1.myvol{
+    h2.hob__fiction__read{
         font-size: 2.5em;
     }
-    li.mine{
-        width: 35vw;
-        height: fit-content;
-        padding: 1em;
+    img.hob__thea__theaimg, img.giorgis.hob__fiction__bookimg{
+        width: 25vw;
     }
-    h2.read{
+    img.hob__fiction__ul__mineimg{
+        width: 15vw;
+    }
+    img.hob__ride__theatre__ridimg{
+        width: 30vw;
+    }
+    img.hob__liturgy__litimgs__usc{
+        width: 25vw;
+    } 
+    li.hob__fiction__ul__mine{
+        width: 30vw;
+        height: 80vh;
+        padding: 1em;
+        font-size: 1.3em;
+    }
+    h2.hob__fiction__read{
         width: 40vw;
     }
-    div.ride{
+    div.hob__ride{
         width: 50vw;
     }
-    div.liturgy{
+    div.hob__liturgy{
         width: 60vw;
         margin: 0 30%;
     }
-    div.thea{
+    div.hob__thea{
         margin-left:4em;
-        width: 70vw;
+        width: 90vw;
         display: grid;
         grid-template-columns: 0.5fr 1fr;
     }
-    h2.theatre, h4.drama{
-        width: 20vw;
+    h2.hob__liturgy_theatre{
+        font-size: 4em;
     }
-    div.fiction{
+    div.hob__fiction{
         margin-left: 3em;
     }
-    h2.myskil{
+    h2.skill__ms__myskil{
          width: 90vw;
     }
     table{
@@ -1287,17 +1243,17 @@ th.img{
       margin-top: 1em;
       margin-bottom: 0em;
     }
-    h2.mycer{
+    h2.skill__certi__mycer{
      width: 80vw;
     }
-   img.bikeimg{
+   img.skill__ms__bike__bikeimg{
      width: 20vw;
    }
    td.tdd, td.tdn{
      width: 0.1vw;
      font-size: 3em; 
    }
-   section.ms{
+   section.skill__ms{
      height: 65em;
    }
    td.tdh{
@@ -1308,27 +1264,204 @@ th.img{
      width: 0.01vw;
      font-size: 3em; 
    }
-   div.sofa{
+   div.skill__ms__other__sofa{
      width: 70vw;
      margin-left: 15%;
    }
-   div.bike{
+   div.skill__ms__bike{
      width: 40vw;
      margin-right: 2em;
    }
-   div.hour{
+   div.skill__certi__hour{
      width: 40vw;
    }
    th.img{
      border-radius: 0;
      border: solid beige;
    }
-   img.ankelba{
+   img.skill__ms__other__sofa__ankelba{
      width: 50vw;
    }
-   img.hourimg{
+   img.skill__certi__hour__hourimg{
      width: 30vw;
      margin: 0.9em;
    }
- }
- /* styles end here */
+
+ img.hob__fiction__bookimg{
+    width: 20vw;
+   }
+div.hob__hobbox{
+    width: 65vw;
+    margin: 0 5%;
+}
+
+div.vol__volbox{
+    width: 60vw;
+  }
+video.hob__hobbox__hobvid, video.vol__volbox__volvid{
+    width: 55vw;
+}
+div.vol__volunteer__ken, div.vol__volunteer__libo, div.vol__volunteer__plantbox, div.vol__volunteer__stembox{
+    width: 45vw;
+}
+p.vol__volunteer__ken__kennote , p.vol__volunteer__libo__libonote, p.vol__volunteer__stembox__stemnote, p.vol__volunteer__plantbox__plantnote{
+    font-size: 1.6em;
+    font-weight: bold;
+}
+img.vol__volunteer__plantbox__plantimg, img.vol__volunteer__libo__liboimg, img.vol__volunteer__ken__johnimg, img.vol__volunteer__stembox__stemimg {
+    width: 30vw;
+}
+footer.home__footer.fv{
+    width: 90vw;
+}
+}
+
+.slider-wrapper .image-list{
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    width: 70vw;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+}
+.slider-wrapper .image-list::-webkit-scrollbar{
+    display: none;
+}
+.slider-wrapper .image-list .img-item{
+    width: 325px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: solid darkcyan;
+}
+
+.mira{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    max-width: 1200px;
+    width: 95%;
+}
+.slider-wrapper{
+    position: relative;
+}
+.slider-wrapper .slide-button{
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: black;
+    font-size: 2.2rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+.slider-wrapper .slide-button:hover{
+    background-color: #444;
+}
+.slider-wrapper .slide-button#prev-slide{
+      left: -50px;
+      display: none;
+}
+.slider-wrapper .slide-button#next-slide {
+    right: -50px;
+}
+.container .slider-scrollbar{
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.slider-scrollbar .scrollbar-track{
+    height: 2px;
+    width: 100%;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track{
+    height: 5px;
+    width: 100%;
+    background: white;
+    position: relative;
+    border-radius: 4px;
+}
+.slider-scrollbar .scrollbar-thumb{
+    position: absolute;
+    height: 8px;
+    width: 50%;
+    background-color: #000;
+    border-radius: inherit;
+    cursor: grab;
+}
+.slider-scrollbar .scrollbar-thumb:active{
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+
+}
+.slider-scrollbar .scrollbar-thumb::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
+}
+
+@media (max-width: 1023) {
+    .slider-wrapper .slide-button{
+        display: none !important;
+    }
+    .slider-wrapper .image-list{
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    .slider-wrapper .image-list .image-item {
+        width: 280px;
+        height: 380px ;
+    }
+    .slider-scrollbar .scrollbar-thumb{
+        width: 20%;
+
+    }
+}
+
+
+h4 { 
+    color: #fff; 
+    font-size: 1.8em; 
+    font-weight: 600; 
+} 
+h4 span { 
+    color: #BD53ED; 
+    position: relative; 
+} 
+h4 span::after { 
+    content: ""; 
+    height: 30px; 
+    width: 4px; 
+    position: absolute; 
+    top: 50%; 
+    right: -8px; 
+    background: #BD53ED; 
+    transform: translateY(-45%); 
+    animation: blink 0.7s infinite; 
+} 
+
+h4 span.stop-blinking::before { 
+    animation: none; 
+} 
+
+@keyframes blink { 
+    50% { opacity: 0 } 
+}
