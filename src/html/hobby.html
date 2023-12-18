@@ -4,71 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Hobby </title>
+    <link href = "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="has-background-warning-light">
     <div>
-        <nav>
-        <a href="home.html"> <i class="fa fa-home"></i> Home </a>|
-        <a href="education.html"> &#9997;  My Education </a>  |   
-        <a href="volunteer.html"> &#127757; My Volunteer </a>|                                                                                                                                                                                   
-        <a href="skills.html"> &#10004; My Skills </a>
+        <nav class="has-text-centered">
+        <a class="is-size-5-desktop tag has-text-white has-background-black mt-5 mx-5 is-underlined" href="home.html"> <i class="fa fa-home"></i> Home </a>
+        <a class="is-size-5-desktop tag has-text-white has-background-black mt-5 mx-5 is-underlined" href="education.html"> &#9997;  My Education </a>    
+        <a class="is-size-5-desktop tag has-text-white has-background-black mt-5 mx-5 is-underlined" href="volunteer.html"> &#127757; My Volunteer </a>                                                                                                                                                                                 
+        <a class="is-size-5-desktop tag has-text-white has-background-black mt-5 mx-5 is-underlined" href="skills.html"> &#10004; My Skills </a>
       </nav>
       </div> <br> <br>
-
-      <div> 
-        <h1> &#9918; My Hobby </h1>
-        <video src="../files/soccer.mp4" controls autoplay muted loop></video>
+      <div class="columns mx-6">
+        <div class="column is-one-quarter"></div>
+      <div class=" column is-half  box my-6   "> 
+        <h1 class="is-size-3-desktop box has-text-centered has-text-primary-dark has-text-weight-bold mb-6"> &#9918; My Hobby </h1>
+        <video class="px-6 py-6 image is-centered  is-4by3" src="../files/soccer.mp4" controls autoplay muted loop></video>
       </div>
+    </div>
       <section>
-        <div>
-            <h2> Reading Fictions </h2>
-            <img src="../files/book.jpg" alt="Books" >
-            <p> My all time favorite books are:</p>
-            <ul>
-                <li> <img src="../files/mine_book.jpg" alt="Mine to win" > Hiwot Teffera's Book that Binds Aspects of Ethiopian Christianity Education and Philosophy</li>
-                <li> <img src= "../files/lasts.jpg" alt="Nothing Lasts Forever"> Sydney Sheldon's. Medical thriller tells the story of three female doctors trying to prove themselves in a profession dominated by men.</li>
-                <li> <img src="../files/pilgrim.jpg" alt="The way of the Pilgrim"> English title of a 19th-century Russian work, recounting the narrator's journey as a mendicant pilgrim while practicing the Jesus Prayer. </li>
+        <div class="my-6 box has-background-link-light mx-6">
+          <div class="columns  mx-6 my-4 is-centered ">
+            <h2 class="hob__fiction__read is-underlined mt-6 mr-6 is-size-3 has-text-info-dark has-text-weight-bold"> &#x1F4DA; Reading Fictions </h2>
+            <img class=" image is-128x128 mt-4" src="../files/book.jpg" alt="Books">
+          </div>
+            <p class=" is-size-4 my-6 has-text-weight-bold"> My all time favorite books are:</p>
+            <ul class="columns ">
+                <li class="box mx-6 ml-3"> <img class=" image is-128x128 mb-5" src="../files/mine_book.jpg" alt="Mine to win" > Hiwot Teffera's Book that Binds Aspects of Ethiopian Christianity Education and Philosophy</li>
+                <li class="box mx-6"> <img class=" image is-128x128 mb-5 " src= "../files/lasts.jpg" alt="Nothing Lasts Forever"> Sydney Sheldon's. Medical thriller tells the story of three female doctors trying to prove themselves in a profession dominated by men.</li>
+                <li class="box mx-6 mb-5"> <img class=" image is-128x128 mb-4" src="../files/pilgrim.jpg" alt="The way of the Pilgrim"> English title of a 19th-century Russian work, recounting the narrator's journey as a mendicant pilgrim while practicing the Jesus Prayer. </li>
             </ul>
         </div>
-        <div>
-            <h2> Theatrical art and Drama </h2>
-            <img src="../files/Yodit.jpg" alt="Yodit Gudit">
-            <P> As someone who finds solace in engaging in deep introspection while facing a mirror, the stage becomes my realm where I can fearlessly express my innermost thoughts and ideas.</P>
-            <h4> Dramas I participated in:</h4>
-            <dl>
+        <div class=" box mx-6 has-background-danger-light">
+          <div class="columns is-centered">
+            <h2 class=" is-size-3 mx-6 has-text-weight-bold is-underlined has-text-black "> &#127909; Theatrical art and Drama </h2>
+            <img class=" mb-6 box" src="../files/Yodit.jpg" alt="Yodit Gudit">
+          </div>
+          <div class="columns ml-6">
+            <P class=" column is-one-quarter box is-size-5 mx-2"> As someone who finds solace in engaging in deep introspection while facing a mirror, the stage becomes my realm where I can fearlessly express my innermost thoughts and ideas.</P>
+            <dl class="box  is-size-5 mx-6 ">
+              <h3 class=" mb-3 mx-6"> Dramas I participated in:</h3>
                 <dt> <b>Yodit Gudit </b> </dt>
                 <dd> The story of Ethiopian monarch, who on her reign executed several civilians. </dd>
                 <dt> <b> Bela Lebelha </b></dt>
                 <dd> The story of two neighbors dueling on a shared land.</dd>
             </dl> 
-            <img src="../files/me_drama.jpg" alt="My acting">
+            <img class=" image is-128x128" src="../files/me_drama.jpg" alt="My acting">
+          </div>
         </div>
-        <div>
-            <h2> Riding a bike </h2>
-            <img src="../files/bike.jpg" alt="Bicycle" >
-            <p> Although I initially had a fear of riding a bicycle, it has now become a hobby that has allowed me to confront my fears and grow stronger.</p>
+
+        <div class="columns mt-6">
+          <div class="column is-three-fifth"></div>
+         <div class="box column columns  mx-6 is-multiline">
+            <h2 class=" column is-half my-6 ml-6 is-size-3 mx-6 has-text-weight-bold is-underlined has-text-info-dark "> &#x1F6B2; Riding a bike </h2>
+            <img class=" image is-128x128 mr-6" src="../files/bike.jpg" alt="Bicycle" >
+            <div class="column arter"></div>
+            <p class=" my-6 is-size-5 is-half mx-6 column box"> Although I initially had a fear of riding a bicycle, it has now become a hobby that has allowed me to confront my fears and grow stronger.</p>
         </div>
-        <div>
-            <h2> Participating in the Holy Liturgy </h2>
-            <audio controls loop>
+
+        
+      </div>
+        <div class=" column is-half my-6 box mx-6 columns is-multiline">
+            <h2 class= " is-underlined has-text-info-dark  column has-text-weight-bold mb-6 is-size-3 is-full"> &#9841; Participating in the Holy Liturgy </h2>
+            <audio class="column my-6 is-one-quarter" controls loop>
                 <source src="../files/orthodox.mp3" type="audio/ogg">
                 <source src="../files/orthodox.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
               </audio>
-            <div>
-              <img src="../files/wechurch.jpg" alt="A religious trip">
-             <img src="../files/liturgy.jpg" alt="Women in Prayer" >
+            <div class="columns is-one-quarter is-centered my-6 ">
+              <img class=" image is-128x128 mx-6" src="../files/wechurch.jpg" alt="A religious trip">
+             <img class=" image is-128x128 mx-6" src="../files/liturgy.jpg" alt="Women in Prayer" >
             </div>
-            <p> The liturgies attributed to St. John Chrysostom and St. Basil the Great are the eucharistic 
+            <p class=" mt-6 is-size-5-desktop has-text-black "> The liturgies attributed to St. John Chrysostom and St. Basil the Great are the eucharistic 
                 liturgies most generally used in Orthodox worship.</p>
         </div>
       </section>
-      <div>
-        <form action="volunteer.html"> <button type="submit"> Previous Page</button> </form>
-        <form action="skills.html"> <button type="submit"> Next Page</button> </form>
+      <div class=" is-flex is-justify-content-space-between">
+        <form action="volunteer.html"> <button class="is-size-5-desktop mx-3"  type="submit"> Previous Page</button> </form>
+        <form action="skills.html"> <button class=" is-size-5-desktop mx-3" type="submit"> Next Page</button> </form>
       </div>
-      <footer id="copy"> © copyright  | Nov, 2023 | Protected By law </footer>
+      <footer class="box has-background-gray-dark is-size-5 has-text-weight-bold has-text-centered my-3"> © Copyright  | Nov, 2023 | Protected By law </footer>
 
 </body>
 </html>

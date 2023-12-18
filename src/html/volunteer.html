@@ -4,53 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Volunteer </title>
+    <link href="../css/styles.cs" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href = "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
 </head>
-<body>
+<body class="has-background-warning-light">
     <div>
         <nav>
-        <div>
-          <a href="home.html">  <i class="fa fa-home"></i>  Home </a>|
-          <a href="education.html"> &#9997;  My Education </a>|
-          <a href="hobby.html"> &#9918; My Hobby</a>   |                                                                                                                                                                                     
-          <a href="skills.html"> &#10004; My Skills </a>
+        <div class="has-text-centered has-background-danger-light mt-3 py-4">
+          <a class="is-size-5-desktop tag has-text-white has-background-black mt-6  mx-5 is-underlined" href="home.html">  <i class="fa fa-home"></i>  Home </a>
+          <a class="is-size-5-desktop tag has-text-white has-background-black mt-6  mx-5 is-underlined" href="education.html"> &#9997;  My Education </a>
+          <a class="is-size-5-desktop tag has-text-white has-background-black mt-6  mx-5 is-underlined" href="hobby.html"> &#9918; My Hobby</a>                                                                                                                                                                                 
+          <a class="is-size-5-desktop tag has-text-white has-background-black mt-6  mx-5 is-underlined" href="skills.html"> &#10004; My Skills </a>
         </div>
         </nav>
          </div>
      <br> <br>
-  <div> 
-    <h1> &#127757; My Volunteer Experience </h1>
-    <video  src="../files/vol.mp4" controls autoplay muted loop> </video>
+     <div class="columns">
+     <div class="column is-one-quarter"></div>
+  <div class=" column is-half  box my-6 mx-6" > 
+    <h1 class="is-size-3-desktop box has-text-centered has-text-primary-dark has-text-weight-bold mb-6"> &#127757; My Volunteer Experience </h1>
+    <video class="px-6 py-6 image is-4by3"  src="../files/vol.mp4" controls autoplay muted loop> </video>
   </div>
-  <section>
-    <div>
-        <h2> Summer Teacher (2016-2017)</h2>
+</div>
+  <section class="columns is-multiline">
+    <div class="box column is-three-fifth mx-6">
+        <h2 class="is-size-5-desktop has-text-weight-bold my-3 "> Summer Teacher (2016-2017)</h2>
         <img src="../files/Keneddy.jpg" alt="John F. Keneddy"  >
         <p> In the summer after my sophomore year at high school, I was able to teach the 5 core subjects at John F. Kenndey Elementary School.
              I also used to tutor kids after class and I received a certificate of Appreciation for that.</p>
     </div>
-    <div>
-        <h2> Assistant Librarian (2014 - Present)</h2>
+    <div class="box column is-three-fifth mx-6 ">
+        <h2 class="is-size-5-desktop has-text-weight-bold my-3"> Assistant Librarian (2014 - Present)</h2>
         <img src="../files/library.jpg" alt="Librarian" >
         <p> At the Kolfe Keraniyo sub-city library, I was able to collect and orgnize books while assisting library users check out books.
             One of my greatest achievments there was organizing book donation events where several reknowned artistists and authors joined.
         </p>
     </div>
-    <div>
-        <h2> Planting Campaign (Lock-down)</h2>
+    <div class="box column is-three-fifth mx-6">
+        <h2 class="is-size-5-desktop has-text-weight-bold my-3"> Planting Campaign (Lock-down)</h2>
         <img src="../files/plant.jpg" alt="Planting">
         <p> I was able to participate on a planting campaign organzed by Interact Club of Cathe's Vega during quarantine.</p>
     </div>
-    <div>
-        <h2> President of LCCS's STEM Club (2018-2021) </h2>
+    <div class="column is-three-fifth mx-6 box">
+        <h2 class="is-size-5-desktop has-text-weight-bold my-3"> President of LCCS's STEM Club (2018-2021) </h2>
         <img src="../files/stem.jpg" alt="Women in STEM">
         <p> During my service therer, I lead the club by motivating girls to be participants in the STEM feild. In collaboration with the Col John C Robinson of the American center, we also used to engage in several contests and group projects.   </p>
     </div>
   </section>
-  <div>
-    <form action="education.html"> <button type="submit"> Previous Page</button> </form>
-    <form action="hobby.html"> <button type="submit"> Next Page</button> </form>
+  <div class="is-flex is-justify-content-space-between my-6">
+    <form action="education.html"> <button class="is-size-5 mx-3" type="submit"> Previous Page</button> </form>
+    <form action="hobby.html"> <button class="is-size-5 mx-3" type="submit"> Next Page</button> </form>
   </div>
-  <footer id="copy"> © Copyright  | Nov, 2023 | Protected By law </footer>
+  <footer class="box has-background-gray-dark is-size-5 has-text-weight-bold has-text-centered my-3"> © Copyright  | Nov, 2023 | Protected By law </footer>
 </body>
 </html>
