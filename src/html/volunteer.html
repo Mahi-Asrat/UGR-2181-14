@@ -4,53 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Volunteer </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../dist/css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
     <div>
         <nav>
-        <div>
-          <a href="home.html">  <i class="fa fa-home"></i>  Home </a>|
-          <a href="education.html"> &#9997;  My Education </a>|
-          <a href="hobby.html"> &#9918; My Hobby</a>   |                                                                                                                                                                                     
-          <a href="skills.html"> &#10004; My Skills </a>
+        <div class="d-flex bg-dark p-4 justify-content-center w-auto ">
+          <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3"  href="home.html">  <i class="fa fa-home"></i>  Home </a>
+          <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3"  href="education.html"> &#9997;  My Education </a>
+          <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3"  href="hobby.html"> &#9918; My Hobby</a>                                                                                                                                                                                 
+          <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3"  href="skills.html"> &#10004; My Skills </a>
         </div>
         </nav>
          </div>
      <br> <br>
-  <div> 
-    <h1> &#127757; My Volunteer Experience </h1>
-    <video  src="../files/vol.mp4" controls autoplay muted loop> </video>
+     <div class="bg-white">
+      <h1 class= "fw-bold fs-2 my-2 text-success p-4 text-center">&#127757; My Volunteer Experience</h1>
+      <div class="d-flex justify-content-center">
+        <video class="w-50" src="../files/vol.mp4" controls autoplay muted loop></video>
+      </div>
+    </div>
+    
+      <section class="d-flex flex-wrap mx-2 my-2">
+        <div class="bg-white shadow col-lg-3 col-md-5 col-sm-12 p-4">
+          <h2 class="fs-3 my-2">Summer Teacher (2016-2017)</h2>
+          <img class="w-75" src="../files/Keneddy.jpg" alt="John F. Keneddy">
+          <p class="fs-5 my-3">In the summer after my sophomore year at high school, I was able to teach the 5 core subjects at John F. Kenndey Elementary School. I also used to tutor kids after class, and I received a certificate of Appreciation for that.</p>
+        </div>
+        <div class="bg-white shadow col-lg-3 col-md-6 col-sm-12 mx-2 my-2 p-4">
+          <h2 class="fs-3 my-2">Assistant Librarian (2014 - Present)</h2>
+          <img class="w-100 my-2" src="../files/library.jpg" alt="Librarian">
+          <p class="fs-5 my-3">At the Kolfe Keraniyo sub-city library, I was able to collect and organize books while assisting library users check out books. One of my greatest achievements there was organizing book donation events where several renowned artists and authors joined.</p>
+        </div>
+        <div class="bg-white shadow col-lg-3 col-md-5 col-sm-12 mx-2 my-2 p-4">
+          <h2 class="fs-3">Planting Campaign (Lock-down)</h2>
+          <img class="w-100 mt-4" src="../files/plant.jpg" alt="Planting">
+          <p class="fs-5 mt-5 mb-3">I was able to participate in a planting campaign organized by Interact Club of Cathe's Vega during quarantine.</p>
+        </div>
+        <div class="bg-white shadow col-lg-2 col-md-6 col-sm-12 mx-2 my-2 p-4">
+          <h2 class="fs-3 my-2">President of LCCS's STEM Club (2018-2021)</h2>
+          <img class="w-100" src="../files/stem.jpg" alt="Women in STEM">
+          <p class="fs-5 my-3">During my service there, I led the club by motivating girls to be participants in the STEM field. In collaboration with Col. John C. Robinson of the American center, we also used to engage in several contests and group projects.</p>
+        </div>
+      </section>
+  <div class="d-flex justify-content-between">
+    <form action="education.html"> <button type="submit" class="btn btn-primary position-relative fs-5 rounded-pill"> Previous Page</button> </form>
+    <form action="hobby.html"> <button type="submit" class="btn btn-primary position-relative fs-5 rounded-pill"> Next Page</button> </form>
   </div>
-  <section>
-    <div>
-        <h2> Summer Teacher (2016-2017)</h2>
-        <img src="../files/Keneddy.jpg" alt="John F. Keneddy"  >
-        <p> In the summer after my sophomore year at high school, I was able to teach the 5 core subjects at John F. Kenndey Elementary School.
-             I also used to tutor kids after class and I received a certificate of Appreciation for that.</p>
-    </div>
-    <div>
-        <h2> Assistant Librarian (2014 - Present)</h2>
-        <img src="../files/library.jpg" alt="Librarian" >
-        <p> At the Kolfe Keraniyo sub-city library, I was able to collect and orgnize books while assisting library users check out books.
-            One of my greatest achievments there was organizing book donation events where several reknowned artistists and authors joined.
-        </p>
-    </div>
-    <div>
-        <h2> Planting Campaign (Lock-down)</h2>
-        <img src="../files/plant.jpg" alt="Planting">
-        <p> I was able to participate on a planting campaign organzed by Interact Club of Cathe's Vega during quarantine.</p>
-    </div>
-    <div>
-        <h2> President of LCCS's STEM Club (2018-2021) </h2>
-        <img src="../files/stem.jpg" alt="Women in STEM">
-        <p> During my service therer, I lead the club by motivating girls to be participants in the STEM feild. In collaboration with the Col John C Robinson of the American center, we also used to engage in several contests and group projects.   </p>
-    </div>
-  </section>
-  <div>
-    <form action="education.html"> <button type="submit"> Previous Page</button> </form>
-    <form action="hobby.html"> <button type="submit"> Next Page</button> </form>
-  </div>
-  <footer id="copy"> © Copyright  | Nov, 2023 | Protected By law </footer>
+  <footer class="bg-secondary text-white py-2 mt-5">
+    <p class="text-center fs-4">
+      &copy; <span>Copyright</span> | <span class="block sm:inline">Nov, 2023</span> | <span class="block sm:inline">Protected By Law</span>
+    </p>
+  </footer>
 </body>
 </html>

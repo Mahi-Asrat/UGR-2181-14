@@ -4,96 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My skills</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../dist/css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
         <div>
             <nav>
-            <div>
-              <a href="home.html">  <i class="fa fa-home"></i>  Home </a>|
-              <a href="education.html"> &#9997;  My Education </a>|
-              <a href="hobby.html"> &#9918; My Hobby</a>   |                                                                                                                                                                                     
-              <a href="volunteer.html"> &#127757; My Volunteer </a>
+            <div class="d-flex bg-dark p-4 justify-content-center w-auto">
+              <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3" href="home.html">  <i class="fa fa-home"></i>  Home </a>
+              <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3"  href="education.html"> &#9997;  My Education </a>
+              <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3"  href="hobby.html"> &#9918; My Hobby</a>                                                                                                                                                                                   
+              <a class="text-white p-3 badge bg-secondary text-wrap fs-5 mx-3" href="volunteer.html"> &#127757; My Volunteer </a>
             </div>
             </nav>
          <br> <br>
          </div>
     
     <section>
-        <h2> &#10004; My Skills </h2>
-        <table>
+      <div class="table-responsive">
+        <h2 class="shadow-lg fw-bold fs-1 bg-success bg-gradient text-white p-4 text-center rounded-pill col-9 ms-5">&#10004; My Skills</h2>
+        <table class="table fs-5 ms-5 my-5 w-75">
+          <thead class="fw-bold">
             <tr>
-                <th> N.o </th>
-                <th> Skills </th>
-                <th> Images </th>
-                <th> Description</th>
+              <th scope="col">N.o</th>
+              <th scope="col">Skills</th>
+              <th scope="col">Images</th>
+              <th scope="col">Description</th>
             </tr>
-            <tr> 
-                <td> 1. </td>
-                <td> Collaborative Working </td>
-                <td> <img src="../files/collab.jpg" alt="Collaborative Working"></td>
-                <td> I have been in many circumstances that require this skill.
-                     This include group work projects in many assignments, projects and community services. 
-                     This all has helped me enhance my communication and collaboration skill. </td>
-            </tr>
+          </thead>
+          <tbody>
             <tr>
-                <td> 2.</td>
-                <td> Creative Thinking </td>
-                <td> <img src="../files/creative.jpg"  alt="Creative"> </td>
-                <td> This of my skill is brought up by my involvment with the art. This includes my hobby in theatre and drama, as well as the Designing classes I take side by side. </td>
+              <td scope="row">1.</td>
+              <td class="fw-bold">Collaborative Working</td>
+              <td><img class="w-50" src="../files/collab.jpg" alt="Collaborative Working"></td>
+              <td>
+                I have been in many circumstances that require this skill. This includes group work projects in many assignments, projects, and community services. This has helped me enhance my communication and collaboration skills.
+              </td>
             </tr>
-            <tr>
-                <td> 3. </td>
-                <td> Leadership </td>
-                <td> <img src="../files/leader.jpg"  alt="Leadership" > </td>
-                <td> Leadership is bring about when taking over several projects or assignments. I have been inclined to this nature myslef over time.</td>
+            <tr class="text-gray-600 text-sm font-light bg-green-50">
+              <td scope="row">2.</td>
+              <td class="fw-bold">Creative Thinking</td>
+              <td><img class="w-50" src="../files/creative.jpg" alt="Creative"></td>
+              <td class="py-3 px-6 text-xl text-gray-950">
+                This skill is brought up by my involvement with the arts. This includes my hobby in theater and drama, as well as the design classes I take side by side.
+              </td>
             </tr>
-            <tr>
-                <td> 4.</td>
-                <td> Time Mangement </td>
-                <td> <img src="../files/time.jpg" alt="Time Mangement"></td>
-                <td> Being Participant in Many extra curricular activities and hobbies doesn't come without a cost. That is shortage of time. To avoid this, in the long haul, I've achieved just that. </td>
+            <tr class="text-gray-600 text-sm font-light">
+              <td scope="row">3.</td>
+              <td class="fw-bold">Leadership</td>
+              <td><img class="w-50" src="../files/leader.jpg" alt="Leadership"></td>
+              <td>
+                Leadership is brought about when taking over several projects or assignments. I have been inclined to this nature myself over time.
+              </td>
             </tr>
-            <tr>
-                <td> 5. </td>
-                <td> Effectual Decision Making </td>
-                <td> <img src="../files/decision.jpg"  alt="Decision Making"></td>
-                <td> When faced with several daunting option where they all seem correct or wrong, effectual decision making comes to play. I have been able to practice just thi through the different leadership positions I have worked in. </td>
+            <tr class="text-gray-600 text-sm font-light bg-green-50">
+              <td scope="row">4.</td>
+              <td class="fw-bold">Time Management</td>
+              <td><img class="w-50" src="../files/time.jpg" alt="Time Management"></td>
+              <td>
+                Being a participant in many extracurricular activities and hobbies doesn't come without a cost. That cost is a shortage of time. To avoid this in the long haul, I've achieved effective time management.
+              </td>
             </tr>
+            <tr class="text-gray-600 text-sm font-light">
+              <td scope="row">5.</td>
+              <td class="fw-bold">Effectual Decision Making</td>
+              <td><img class="w-50" src="../files/decision.jpg" alt="Decision Making"></td>
+              <td>
+                When faced with several daunting options where they all seem correct or wrong, effectual decision-making comes into play. I have been able to practice this through the different leadership positions I have worked in.
+              </td>
+            </tr>
+          </tbody>
         </table>
+      </div>
     </section>
     <hr>
-    <section>
-    <div>
-      <h2> My Adobe Works </h2>  
-      <img src="../files/Ankelba_Sofa.jpg" alt="Ankelba_Sofa"> <p> This is the picture of a billboard I have made for a hypothetical brand whose whole identity has been created by the creative directors' team. This whole process is called <em> Brand identity Creation. </em> </p>
-    </div>
-    <div>
-        <img src="../files/bec79416b47de044cfb9e1607b8c92db.jpg"  alt="Bicycle">
-        <p> This is the picture of an abstract bicycle made using only shapes. This is linked to the concept of <em> Art Direction </em> </p>
-    </div>
-    <div>
-        <img src="../files/Zuret_logo_final.jpg" alt="Zuret Logo"> <p> This is the logo I made for a group project title.</p>
-    </div>
-    </section>
-    <section>
-        <h2> My Certificates</h2>
-        <div>
-           <img src="../files/my_certificate.jpg" alt="Hour of Code">
-           <p> A certificate of completion of The Hour Of Code from Code Org. </p>
+    <div class="container">
+      <h2 class="fw-bold fs-1 p-4 text-center">°📷 My Adobe Works</h2>
+      <div class="row justify-content-center gap-4">
+        <div class="bg-white shadow col-md-4 col-sm-6 p-4">
+          <img class="w-100" src="../files/Ankelba_Sofa.jpg" alt="Ankelba_Sofa">
+          <p class="fs-5 my-4">🎀 This is the picture of a billboard I have made for a hypothetical brand whose whole identity has been created by the creative directors' team. This whole process is called <em>Brand identity Creation.</em></p>
         </div>
-        <div>
-            <img src="../files/earth_certi.jpg" alt="Save the Earth">
-            <p> A certificate of appreciation for participating at a planting campaign.</p>
+        <div class="bg-white shadow col-md-4 col-sm-6 p-4">
+          <img class="w-100" src="../files/bec79416b47de044cfb9e1607b8c92db.jpg" alt="Bicycle">
+          <p class="fs-5 my-4">🎀 This is the picture of an abstract bicycle made using only shapes. This is linked to the concept of <em>Art Direction</em></p>
         </div>
-        <div>
-            <img src="../files/woreda_certi.jpg" alt="Woreda Certificate">
-            <p> Certificate of Appreciation for participating in several events held at Kolfe Keraniyo Sub-city.</p>
+        <div class="bg-white shadow col-md-4 col-sm-6 p-4">
+          <img class="w-100" src="../files/Zuret_logo_final.jpg" alt="Zuret Logo">
+          <p class="fs-5 my-4">🎀 This is the logo I made for a group project title.</p>
         </div>
-    </section>
-    <div>
-        <form action="hobby.html"> <button type="submit"> Previous Page</button> </form>
       </div>
-      <footer id="copy"> © copyright  | Nov, 2023 | Protected By law </footer>
+      <h2 class="fw-bold fs-1 p-4 text-center">🎖️ My Certificates</h2>
+      <div class="row justify-content-center gap-4">
+        <div class="bg-white shadow-3 col-md-4 col-sm-6 p-4">
+          <img class="w-100" src="../files/my_certificate.jpg" alt="Hour of Code">
+          <p class="fs-5 my-4">✨ A certificate of completion of The Hour Of Code from Code Org.</p>
+        </div>
+        <div class="bg-white shadow-3 col-md-4 col-sm-6 p-4">
+          <img class="w-100" src="../files/earth_certi.jpg" alt="Save the Earth">
+          <p class="fs-5 my-4">✨ A certificate of appreciation for participating in a planting campaign.</p>
+        </div>
+        <div class="bg-white shadow-3 col-md-4 col-sm-6 p-4">
+          <img class="w-100" src="../files/woreda_certi.jpg" alt="Woreda Certificate">
+          <p class="fs-5 my-4">✨ Certificate of Appreciation for participating in several events held at Kolfe Keraniyo Sub-city.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex my-6">
+        <form action="hobby.html"> <button class="btn btn-primary position-relative fs-5 rounded-pill ms-3 my-4" id="preved" type="submit"> Previous Page</button> </form>
+      </div>
+      <footer class="bg-secondary text-white py-2 mt-5">
+        <p class="text-center fs-4">
+          &copy; <span>Copyright</span> | <span class="block sm:inline">Nov, 2023</span> | <span class="block sm:inline">Protected By Law</span>
+        </p>
+      </footer>
 </body>
 </html>
